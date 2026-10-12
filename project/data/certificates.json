@@ -1,0 +1,1154 @@
+[
+ {
+  "id": 1,
+  "name": "정보처리기사",
+  "field": "IT/개발",
+  "eligibility": "학년",
+  "eligibilityText": "관련 학과 3학년 이상 또는 졸업(예정)자, 실무 경력자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-15",
+    "applyEnd": "2026-10-21",
+    "examDate": "2026-11-04"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-07",
+    "applyEnd": "2027-01-13",
+    "examDate": "2027-01-27"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-01",
+    "applyEnd": "2027-04-07",
+    "examDate": "2027-04-21"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-06-24",
+    "applyEnd": "2027-06-30",
+    "examDate": "2027-07-14"
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "정보처리산업기사",
+  "field": "IT/개발",
+  "eligibility": "학년",
+  "eligibilityText": "관련 학과 2학년 이상 또는 졸업(예정)자",
+  "difficulty": 2,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-22",
+    "applyEnd": "2026-10-28",
+    "examDate": "2026-11-14"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-14",
+    "applyEnd": "2027-01-20",
+    "examDate": "2027-02-06"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-08",
+    "applyEnd": "2027-04-14",
+    "examDate": "2027-05-01"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-01",
+    "applyEnd": "2027-07-07",
+    "examDate": "2027-07-24"
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "SQLD",
+  "field": "IT/개발",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 50000,
+  "officialUrl": "https://www.dataq.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-29",
+    "applyEnd": "2026-11-04",
+    "examDate": "2026-11-24"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-21",
+    "applyEnd": "2027-01-27",
+    "examDate": "2027-02-16"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-15",
+    "applyEnd": "2027-04-21",
+    "examDate": "2027-05-11"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-08",
+    "applyEnd": "2027-07-14",
+    "examDate": "2027-08-03"
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "ADsP",
+  "field": "IT/개발",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 50000,
+  "officialUrl": "https://www.dataq.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-05",
+    "applyEnd": "2026-11-11",
+    "examDate": "2026-12-04"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-28",
+    "applyEnd": "2027-02-03",
+    "examDate": "2027-02-26"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-22",
+    "applyEnd": "2027-04-28",
+    "examDate": "2027-05-21"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-15",
+    "applyEnd": "2027-07-21",
+    "examDate": "2027-08-13"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "빅데이터분석기사",
+  "field": "IT/개발",
+  "eligibility": "학년",
+  "eligibilityText": "관련 학과 졸업(예정)자 또는 실무 경력자",
+  "difficulty": 3,
+  "fee": 20000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-12",
+    "applyEnd": "2026-11-18",
+    "examDate": "2026-12-14"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-04",
+    "applyEnd": "2027-02-10",
+    "examDate": "2027-03-08"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-29",
+    "applyEnd": "2027-05-05",
+    "examDate": "2027-05-31"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-22",
+    "applyEnd": "2027-07-28",
+    "examDate": "2027-08-23"
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "정보보안기사",
+  "field": "IT/개발",
+  "eligibility": "전공",
+  "eligibilityText": "관련 학과 졸업자 또는 실무 경력자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-19",
+    "applyEnd": "2026-11-25",
+    "examDate": "2026-12-09"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-11",
+    "applyEnd": "2027-02-17",
+    "examDate": "2027-03-03"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-05-06",
+    "applyEnd": "2027-05-12",
+    "examDate": "2027-05-26"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-29",
+    "applyEnd": "2027-08-04",
+    "examDate": "2027-08-18"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "리눅스마스터 2급",
+  "field": "IT/개발",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 50000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-19",
+    "applyEnd": "2026-10-25",
+    "examDate": "2026-11-11"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-11",
+    "applyEnd": "2027-01-17",
+    "examDate": "2027-02-03"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-05",
+    "applyEnd": "2027-04-11",
+    "examDate": "2027-04-28"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-06-28",
+    "applyEnd": "2027-07-04",
+    "examDate": "2027-07-21"
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "name": "네트워크관리사 2급",
+  "field": "IT/개발",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 38000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-26",
+    "applyEnd": "2026-11-01",
+    "examDate": "2026-11-21"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-18",
+    "applyEnd": "2027-01-24",
+    "examDate": "2027-02-13"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-12",
+    "applyEnd": "2027-04-18",
+    "examDate": "2027-05-08"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-05",
+    "applyEnd": "2027-07-11",
+    "examDate": "2027-07-31"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "컴퓨터활용능력 1급",
+  "field": "IT/개발",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 25000,
+  "officialUrl": "https://license.korcham.net",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-02",
+    "applyEnd": "2026-11-08",
+    "examDate": "2026-12-01"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-25",
+    "applyEnd": "2027-01-31",
+    "examDate": "2027-02-23"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-19",
+    "applyEnd": "2027-04-25",
+    "examDate": "2027-05-18"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-12",
+    "applyEnd": "2027-07-18",
+    "examDate": "2027-08-10"
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "name": "컴퓨터활용능력 2급",
+  "field": "IT/개발",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 1,
+  "fee": 19000,
+  "officialUrl": "https://license.korcham.net",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-09",
+    "applyEnd": "2026-11-15",
+    "examDate": "2026-12-11"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-01",
+    "applyEnd": "2027-02-07",
+    "examDate": "2027-03-05"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-26",
+    "applyEnd": "2027-05-02",
+    "examDate": "2027-05-28"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-19",
+    "applyEnd": "2027-07-25",
+    "examDate": "2027-08-20"
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "name": "TOEIC",
+  "field": "어학",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 52500,
+  "officialUrl": "https://www.toeic.co.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-16",
+    "applyEnd": "2026-11-22",
+    "examDate": "2026-12-06"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-08",
+    "applyEnd": "2027-02-14",
+    "examDate": "2027-02-28"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-05-03",
+    "applyEnd": "2027-05-09",
+    "examDate": "2027-05-23"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-26",
+    "applyEnd": "2027-08-01",
+    "examDate": "2027-08-15"
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "name": "TOEIC Speaking",
+  "field": "어학",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 84000,
+  "officialUrl": "https://www.toeic.co.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-16",
+    "applyEnd": "2026-10-22",
+    "examDate": "2026-11-08"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-08",
+    "applyEnd": "2027-01-14",
+    "examDate": "2027-01-31"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-02",
+    "applyEnd": "2027-04-08",
+    "examDate": "2027-04-25"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-06-25",
+    "applyEnd": "2027-07-01",
+    "examDate": "2027-07-18"
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "name": "OPIc",
+  "field": "어학",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 84800,
+  "officialUrl": "https://www.opic.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-23",
+    "applyEnd": "2026-10-29",
+    "examDate": "2026-11-18"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-15",
+    "applyEnd": "2027-01-21",
+    "examDate": "2027-02-10"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-09",
+    "applyEnd": "2027-04-15",
+    "examDate": "2027-05-05"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-02",
+    "applyEnd": "2027-07-08",
+    "examDate": "2027-07-28"
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "name": "TEPS",
+  "field": "어학",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 3,
+  "fee": 48000,
+  "officialUrl": "https://www.teps.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-30",
+    "applyEnd": "2026-11-05",
+    "examDate": "2026-11-28"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-22",
+    "applyEnd": "2027-01-28",
+    "examDate": "2027-02-20"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-16",
+    "applyEnd": "2027-04-22",
+    "examDate": "2027-05-15"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-09",
+    "applyEnd": "2027-07-15",
+    "examDate": "2027-08-07"
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "name": "JLPT N2",
+  "field": "어학",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 60000,
+  "officialUrl": "https://www.jlpt.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-06",
+    "applyEnd": "2026-11-12",
+    "examDate": "2026-12-08"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-29",
+    "applyEnd": "2027-02-04",
+    "examDate": "2027-03-02"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-23",
+    "applyEnd": "2027-04-29",
+    "examDate": "2027-05-25"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-16",
+    "applyEnd": "2027-07-22",
+    "examDate": "2027-08-17"
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "name": "HSK 5급",
+  "field": "어학",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 45000,
+  "officialUrl": "https://www.hsk.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-13",
+    "applyEnd": "2026-11-19",
+    "examDate": "2026-12-03"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-05",
+    "applyEnd": "2027-02-11",
+    "examDate": "2027-02-25"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-30",
+    "applyEnd": "2027-05-06",
+    "examDate": "2027-05-20"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-23",
+    "applyEnd": "2027-07-29",
+    "examDate": "2027-08-12"
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "name": "전산회계 1급",
+  "field": "경영/회계",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 1,
+  "fee": 25000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-20",
+    "applyEnd": "2026-11-26",
+    "examDate": "2026-12-13"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-12",
+    "applyEnd": "2027-02-18",
+    "examDate": "2027-03-07"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-05-07",
+    "applyEnd": "2027-05-13",
+    "examDate": "2027-05-30"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-30",
+    "applyEnd": "2027-08-05",
+    "examDate": "2027-08-22"
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "name": "전산세무 2급",
+  "field": "경영/회계",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 28000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-20",
+    "applyEnd": "2026-10-26",
+    "examDate": "2026-11-15"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-12",
+    "applyEnd": "2027-01-18",
+    "examDate": "2027-02-07"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-06",
+    "applyEnd": "2027-04-12",
+    "examDate": "2027-05-02"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-06-29",
+    "applyEnd": "2027-07-05",
+    "examDate": "2027-07-25"
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "name": "재경관리사",
+  "field": "경영/회계",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 3,
+  "fee": 60000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-27",
+    "applyEnd": "2026-11-02",
+    "examDate": "2026-11-25"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-19",
+    "applyEnd": "2027-01-25",
+    "examDate": "2027-02-17"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-13",
+    "applyEnd": "2027-04-19",
+    "examDate": "2027-05-12"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-06",
+    "applyEnd": "2027-07-12",
+    "examDate": "2027-08-04"
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "name": "유통관리사 2급",
+  "field": "경영/회계",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 2,
+  "fee": 18400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-03",
+    "applyEnd": "2026-11-09",
+    "examDate": "2026-12-05"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-26",
+    "applyEnd": "2027-02-01",
+    "examDate": "2027-02-27"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-20",
+    "applyEnd": "2027-04-26",
+    "examDate": "2027-05-22"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-13",
+    "applyEnd": "2027-07-19",
+    "examDate": "2027-08-14"
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "name": "물류관리사",
+  "field": "경영/회계",
+  "eligibility": "학년",
+  "eligibilityText": "대학 졸업(예정)자 또는 관련 경력자",
+  "difficulty": 3,
+  "fee": 20000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-10",
+    "applyEnd": "2026-11-16",
+    "examDate": "2026-11-30"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-02",
+    "applyEnd": "2027-02-08",
+    "examDate": "2027-02-22"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-27",
+    "applyEnd": "2027-05-03",
+    "examDate": "2027-05-17"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-20",
+    "applyEnd": "2027-07-26",
+    "examDate": "2027-08-09"
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "name": "사회조사분석사 2급",
+  "field": "경영/회계",
+  "eligibility": "학년",
+  "eligibilityText": "대학 2학년 이상 또는 졸업(예정)자",
+  "difficulty": 2,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-17",
+    "applyEnd": "2026-11-23",
+    "examDate": "2026-12-10"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-09",
+    "applyEnd": "2027-02-15",
+    "examDate": "2027-03-04"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-05-04",
+    "applyEnd": "2027-05-10",
+    "examDate": "2027-05-27"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-27",
+    "applyEnd": "2027-08-02",
+    "examDate": "2027-08-19"
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "name": "전기기능사",
+  "field": "기술/공학",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 1,
+  "fee": 14500,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-17",
+    "applyEnd": "2026-10-23",
+    "examDate": "2026-11-12"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-09",
+    "applyEnd": "2027-01-15",
+    "examDate": "2027-02-04"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-03",
+    "applyEnd": "2027-04-09",
+    "examDate": "2027-04-29"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-06-26",
+    "applyEnd": "2027-07-02",
+    "examDate": "2027-07-22"
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "name": "전기기사",
+  "field": "기술/공학",
+  "eligibility": "전공",
+  "eligibilityText": "관련 학과 졸업(예정)자 또는 실무 경력자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-24",
+    "applyEnd": "2026-10-30",
+    "examDate": "2026-11-22"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-16",
+    "applyEnd": "2027-01-22",
+    "examDate": "2027-02-14"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-10",
+    "applyEnd": "2027-04-16",
+    "examDate": "2027-05-09"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-03",
+    "applyEnd": "2027-07-09",
+    "examDate": "2027-08-01"
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "name": "산업안전기사",
+  "field": "기술/공학",
+  "eligibility": "학년",
+  "eligibilityText": "관련 학과 3학년 이상 또는 졸업(예정)자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-31",
+    "applyEnd": "2026-11-06",
+    "examDate": "2026-12-02"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-23",
+    "applyEnd": "2027-01-29",
+    "examDate": "2027-02-24"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-17",
+    "applyEnd": "2027-04-23",
+    "examDate": "2027-05-19"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-10",
+    "applyEnd": "2027-07-16",
+    "examDate": "2027-08-11"
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "name": "건축기사",
+  "field": "기술/공학",
+  "eligibility": "전공",
+  "eligibilityText": "관련 학과 졸업(예정)자 또는 실무 경력자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-07",
+    "applyEnd": "2026-11-13",
+    "examDate": "2026-11-27"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-30",
+    "applyEnd": "2027-02-05",
+    "examDate": "2027-02-19"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-24",
+    "applyEnd": "2027-04-30",
+    "examDate": "2027-05-14"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-17",
+    "applyEnd": "2027-07-23",
+    "examDate": "2027-08-06"
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "name": "공조냉동기계기사",
+  "field": "기술/공학",
+  "eligibility": "전공",
+  "eligibilityText": "관련 학과 졸업(예정)자 또는 실무 경력자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-14",
+    "applyEnd": "2026-11-20",
+    "examDate": "2026-12-07"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-06",
+    "applyEnd": "2027-02-12",
+    "examDate": "2027-03-01"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-05-01",
+    "applyEnd": "2027-05-07",
+    "examDate": "2027-05-24"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-24",
+    "applyEnd": "2027-07-30",
+    "examDate": "2027-08-16"
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "name": "GTQ 포토샵 1급",
+  "field": "디자인",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 1,
+  "fee": 31000,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-21",
+    "applyEnd": "2026-11-27",
+    "examDate": "2026-12-17"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-13",
+    "applyEnd": "2027-02-19",
+    "examDate": "2027-03-11"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-05-08",
+    "applyEnd": "2027-05-14",
+    "examDate": "2027-06-03"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-31",
+    "applyEnd": "2027-08-06",
+    "examDate": "2027-08-26"
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "name": "웹디자인기능사",
+  "field": "디자인",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 1,
+  "fee": 14500,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-21",
+    "applyEnd": "2026-10-27",
+    "examDate": "2026-11-19"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-13",
+    "applyEnd": "2027-01-19",
+    "examDate": "2027-02-11"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-07",
+    "applyEnd": "2027-04-13",
+    "examDate": "2027-05-06"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-06-30",
+    "applyEnd": "2027-07-06",
+    "examDate": "2027-07-29"
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "name": "컬러리스트기사",
+  "field": "디자인",
+  "eligibility": "학년",
+  "eligibilityText": "관련 학과 3학년 이상 또는 졸업(예정)자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-10-28",
+    "applyEnd": "2026-11-03",
+    "examDate": "2026-11-29"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-20",
+    "applyEnd": "2027-01-26",
+    "examDate": "2027-02-21"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-14",
+    "applyEnd": "2027-04-20",
+    "examDate": "2027-05-16"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-07",
+    "applyEnd": "2027-07-13",
+    "examDate": "2027-08-08"
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "name": "시각디자인기사",
+  "field": "디자인",
+  "eligibility": "전공",
+  "eligibilityText": "관련 학과 졸업(예정)자 또는 실무 경력자",
+  "difficulty": 3,
+  "fee": 19400,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-04",
+    "applyEnd": "2026-11-10",
+    "examDate": "2026-11-24"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-01-27",
+    "applyEnd": "2027-02-02",
+    "examDate": "2027-02-16"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-21",
+    "applyEnd": "2027-04-27",
+    "examDate": "2027-05-11"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-14",
+    "applyEnd": "2027-07-20",
+    "examDate": "2027-08-03"
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "name": "컴퓨터그래픽스운용기능사",
+  "field": "디자인",
+  "eligibility": "제한없음",
+  "eligibilityText": "제한 없음",
+  "difficulty": 1,
+  "fee": 14500,
+  "officialUrl": "https://www.q-net.or.kr",
+  "rounds": [
+   {
+    "roundId": "r1",
+    "applyStart": "2026-11-11",
+    "applyEnd": "2026-11-17",
+    "examDate": "2026-12-04"
+   },
+   {
+    "roundId": "r2",
+    "applyStart": "2027-02-03",
+    "applyEnd": "2027-02-09",
+    "examDate": "2027-02-26"
+   },
+   {
+    "roundId": "r3",
+    "applyStart": "2027-04-28",
+    "applyEnd": "2027-05-04",
+    "examDate": "2027-05-21"
+   },
+   {
+    "roundId": "r4",
+    "applyStart": "2027-07-21",
+    "applyEnd": "2027-07-27",
+    "examDate": "2027-08-13"
+   }
+  ]
+ }
+]

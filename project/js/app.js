@@ -16,12 +16,16 @@ const tId=s=>+s.split(':')[0],tR=s=>s.split(':')[1];
 const byId=id=>S.certs.find(c=>c.id===id);
 const nextR=c=>c.rounds.filter(r=>dd(r.examDate)>=0).sort((a,b)=>a.examDate<b.examDate?-1:1)[0];
 const dayOf=c=>{const r=nextR(c);return r?dd(r.examDate):9999};
-async function load(){S.status='loading';renderList();
-  try{if(S.failOnce){S.failOnce=false;throw new Error('demo')}
-    const res=await fetch('data/certificates.json',{cache:'no-store'});
-    if(!res.ok)throw new Error(res.status);
-    S.certs=await res.json();S.status='ready'}catch(e){S.status='error'}
-  renderList();refresh()}
+function load(){S.status='loading';renderList();
+  setTimeout(async()=>{
+    try{if(S.failOnce){S.failOnce=false;throw new Error('network')}
+      const res=await fetch('project/data/certificates.json');
+      if(!res.ok)throw new Error(res.status);
+      const raw=await res.json();
+      S.certs=raw.map(c=>({id:c.id,name:c.name,field:c.field,eligibility:c.eligibility,eligibilityText:c.eligibilityText,difficulty:c.difficulty,fee:c.fee,officialUrl:c.officialUrl,
+        rounds:c.rounds.map((r,i)=>({roundId:'r'+(i+1),applyStart:isoOff(r[0]),applyEnd:isoOff(r[1]),examDate:isoOff(r[2])}))}));
+      S.status='ready'}catch(e){S.status='error'}
+    renderList();refresh()},550)}
 function filtered(){const q=S.q.trim().toLowerCase();
   let l=S.certs.filter(c=>(!q||c.name.toLowerCase().includes(q))&&(!S.f.field||c.field===S.f.field)&&(!S.f.elig||c.eligibility===S.f.elig)&&(!S.f.diff||c.difficulty===+S.f.diff));
   return l.sort(S.sort==='fee'?(a,b)=>a.fee-b.fee:(a,b)=>dayOf(a)-dayOf(b))}
@@ -60,8 +64,7 @@ function renderMy(){const T=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).s
   $('#v-my').innerHTML=h}
 function renderModal(){const m=S.modal,el=$('#modal');if(!m){el.innerHTML='';return}
   const c=byId(m.id),T=getT(),reg=T.find(s=>tId(s)===c.id),rs=c.rounds.filter(r=>dd(r.examDate)>=0);
-  const sel=m.roundId||(reg?tR(reg):(rs[0]?rs[0].roundId:'')),r=rs.find(x=>x.roundId===sel)||rs[0];
-  if(!r){el.innerHTML=`<div class="ov" data-act="close"></div><div class="sheet"><div class="sb"><div class="sh"><span class="t" style="font-size:17px">${c.name}</span><button class="chip" data-act="close">닫기 ✕</button></div><p class="sub">예정된 시험 회차가 없습니다. 공식 접수처에서 일정을 확인하세요.</p></div></div>`;return}
+  const sel=m.roundId||(reg?tR(reg):rs[0].roundId),r=rs.find(x=>x.roundId===sel)||rs[0];
   el.innerHTML=`<div class="ov" data-act="close"></div><div class="sheet" role="dialog" aria-label="${c.name} 상세"><div class="sb"><div class="sh"><span class="t" style="font-size:17px">${c.name}</span><button class="chip" data-act="close">닫기 ✕</button></div>
   <div class="sub">회차별 일정 (목표 회차 선택)</div>${rs.map((x,i)=>`<label class="rr"><input type="radio" name="rd" value="${x.roundId}" ${x.roundId===r.roundId?'checked':''} data-act="round"><span><b>${i+1}회차</b> 접수 ${md(x.applyStart)} ~ ${md(x.applyEnd)}<br>시험일 ${x.examDate} · ${D(dd(x.examDate))}</span></label>`).join('')}
   <div class="sr" style="margin-top:6px"><b>응시 자격</b><span style="text-align:right">${c.eligibilityText}</span></div><div class="sr"><b>응시료</b><span>${won(c.fee)}</span></div></div>

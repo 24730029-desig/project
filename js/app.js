@@ -19,7 +19,7 @@ const dayOf=c=>{const r=nextR(c);return r?dd(r.examDate):9999};
 function load(){S.status='loading';renderList();
   setTimeout(async()=>{
     try{if(S.failOnce){S.failOnce=false;throw new Error('network')}
-      const res=await fetch('project/data/certificates.json');
+      const res=await fetch('./data/certificates.json');
       if(!res.ok)throw new Error(res.status);
       const raw=await res.json();
       S.certs=raw.map(c=>({id:c.id,name:c.name,field:c.field,eligibility:c.eligibility,eligibilityText:c.eligibilityText,difficulty:c.difficulty,fee:c.fee,officialUrl:c.officialUrl,
@@ -66,7 +66,7 @@ function renderModal(){const m=S.modal,el=$('#modal');if(!m){el.innerHTML='';ret
   const c=byId(m.id),T=getT(),reg=T.find(s=>tId(s)===c.id),rs=c.rounds.filter(r=>dd(r.examDate)>=0);
   const sel=m.roundId||(reg?tR(reg):rs[0].roundId),r=rs.find(x=>x.roundId===sel)||rs[0];
   el.innerHTML=`<div class="ov" data-act="close"></div><div class="sheet" role="dialog" aria-label="${c.name} 상세"><div class="sb"><div class="sh"><span class="t" style="font-size:17px">${c.name}</span><button class="chip" data-act="close">닫기 ✕</button></div>
-  <div class="sub">회차별 일정 (목표 회차 선택)</div>${rs.map((x,i)=>`<label class="rr"><input type="radio" name="rd" value="${x.roundId}" ${x.roundId===r.roundId?'checked':''} data-act="round"><span><b>${i+1}회차</b> 접수 ${md(x.applyStart)} ~ ${md(x.applyEnd)}<br>시험일 ${x.examDate} · ${D(dd(x.examDate))}</span></label>`).join('')}
+  <div class="sub">회차별 일정 (목표 회차 선택)</div>${rs.map((x,i)=>`<label class="rr"><input type="radio" name="rd" value="${x.roundId}" ${x.roundId===r.roundId?'checked':''} data-act="round"><span><b>${i+1}회차</b> 접수 ${md(x.applyStart)} ~${md(x.applyEnd)}<br>시험일 ${x.examDate} ·${D(dd(x.examDate))}</span></label>`).join('')}
   <div class="sr" style="margin-top:6px"><b>응시 자격</b><span style="text-align:right">${c.eligibilityText}</span></div><div class="sr"><b>응시료</b><span>${won(c.fee)}</span></div></div>
   <div class="bar">${S.toast?`<div class="toast"><span>${S.toast}</span><span>${D(dd(r.examDate))}</span></div>`:''}
   <a class="btn ln" href="${c.officialUrl}" target="_blank" rel="noopener noreferrer">공식 접수처 바로가기 ↗</a>

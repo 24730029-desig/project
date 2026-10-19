@@ -16,6 +16,7 @@ const tId=s=>+s.split(':')[0],tR=s=>s.split(':')[1];
 const byId=id=>S.certs.find(c=>c.id===id);
 const nextR=c=>c.rounds.filter(r=>dd(r.examDate)>=0).sort((a,b)=>a.examDate<b.examDate?-1:1)[0];
 const dayOf=c=>{const r=nextR(c);return r?dd(r.examDate):9999};
+
 function load(){S.status='loading';renderList();
   setTimeout(async()=>{
     try{if(S.failOnce){S.failOnce=false;throw new Error('network')}
@@ -26,21 +27,45 @@ function load(){S.status='loading';renderList();
         rounds:c.rounds.map((r,i)=>({roundId:'r'+(i+1),applyStart:isoOff(r[0]),applyEnd:isoOff(r[1]),examDate:isoOff(r[2])}))}));
       S.status='ready'}catch(e){S.status='error'}
     renderList();refresh()},550)}
+
 function filtered(){const q=S.q.trim().toLowerCase();
   let l=S.certs.filter(c=>(!q||c.name.toLowerCase().includes(q))&&(!S.f.field||c.field===S.f.field)&&(!S.f.elig||c.eligibility===S.f.elig)&&(!S.f.diff||c.difficulty===+S.f.diff));
   return l.sort(S.sort==='fee'?(a,b)=>a.fee-b.fee:(a,b)=>dayOf(a)-dayOf(b))}
+
 const cardH=c=>`<button class="card" data-act="open" data-id="${c.id}"><div class="row sp"><span class="t">${c.name}</span><span class="dd">${D(dayOf(c))}</span></div><div class="badges"><span class="badge">${c.field}</span><span class="badge">${c.eligibility}</span><span class="badge">난이도 ${dots(c.difficulty)}</span><span class="badge">${won(c.fee)}</span></div></button>`;
 const empty=(t,s,btn)=>`<div class="empty"><p><b>${t}</b>${s}</p>${btn}</div>`;
-function renderHome(){const T=getT().map(s=>byId(tId(s))).filter(Boolean).sort((a,b)=>dayOf(a)-dayOf(b)).slice(0,3);
-  let h=`<div class="t">준비할 자격증, 한 번에 비교</div><div class="sub" style="margin-top:4px">시험 조건과 일정을 모아 보고, 목표 시험까지 남은 날을 확인하세요</div><div class="sec"><div class="sub">내 목표 D-Day</div>`;
+
+function renderHome(){
+  const T=getT().map(s=>byId(tId(s))).filter(Boolean).sort((a,b)=>dayOf(a)-dayOf(b)).slice(0,3);
+  let h=`<div class="t">준비할 자격증, 한 번에 비교</div><div class="sub" style="margin-top:4px">시험 조건과 일정을 모아 보고, 목표 시험까지 남은 날을 확인하세요</div>`;
+  
+  // 1. 내 목표 D-Day
+  h+=`<div class="sec"><div class="sub">내 목표 D-Day</div>`;
   if(S.status==='error')h+=`<div class="box sub">자격증 정보를 불러오지 못했습니다. 저장한 목표는 유지됩니다.</div>`;
   else if(S.status==='loading')h+=`<div class="skel"></div>`;
   else if(!T.length)h+=empty('아직 등록된 목표 시험이 없습니다','관심 있는 자격증의 시험일을 등록해 보세요',`<button class="btn" data-act="nav" data-v="list">자격증 탐색하러 가기</button>`);
   else h+=`<div class="d3">`+T.map(c=>`<button class="box" data-act="open" data-id="${c.id}"><div class="sub">${c.name}</div><div class="dd">${D(dayOf(c))}</div></button>`).join('')+`</div>`;
-  h+=`</div><div class="sec"><div class="sub">분야별 빠른 진입</div><div class="chips">${FIELDS.map(f=>`<button class="chip" data-act="quick" data-v="${f}">${f}</button>`).join('')}</div></div><div class="sec"><button class="btn pr" data-act="quick" data-v="">전체 자격증 보기 →</button></div>`;
-  $('#v-home').innerHTML=h}
+  h+=`</div>`;
+
+  // 2. 분야별 빠른 진입
+  h+=`<div class="sec"><div class="sub">분야별 빠른 진입</div><div class="chips">${FIELDS.map(f=>`<button class="chip" data-act="quick" data-v="${f}">${f}</button>`).join('')}</div></div>`;
+
+  // 3 & 4. 임박 시험 및 인기 자격증 리스트
+  if(S.status==='ready'&&S.certs.length){
+    const urgent=S.certs.slice().sort((a,b)=>dayOf(a)-dayOf(b)).slice(0,4);
+    h+=`<div class="sec"><div class="row sp"><div class="t" style="font-size:14px">🔥 원서 접수 임박 시험</div><button class="sub" data-act="quick" data-v="" style="text-decoration:underline">전체보기</button></div><div class="sec-list" style="margin-top:8px">${urgent.map(cardH).join('')}</div></div>`;
+
+    const popular=S.certs.slice(0,5);
+    h+=`<div class="sec"><div class="t" style="font-size:14px">🏆 대학생 인기 자격증 Top 5</div><div class="sec-list" style="margin-top:8px">${popular.map((c,i)=>`<div class="row" style="gap:10px;margin-bottom:4px"><span style="font-weight:800;color:var(--mark);font-size:15px;width:18px">${i+1}</span>${cardH(c)}</div>`).join('')}</div></div>`;
+  }
+
+  h+=`<div class="sec" style="margin-bottom:20px"><button class="btn pr" data-act="quick" data-v="">전체 자격증 보기 →</button></div>`;
+  $('#v-home').innerHTML=h
+}
+
 function menuH(k,label,opts,fmt){const cur=S.f[k];
   return `<button class="chip${cur?' on':''}" data-act="menu" data-k="${k}" aria-expanded="${S.menu===k}">${label}${cur?': '+fmt(cur):''} ▾</button>`}
+
 function renderList(){const el=$('#lb');
   if(S.status==='loading'){el.innerHTML='<div class="skel"></div><div class="skel"></div><div class="skel"></div>';return}
   if(S.status==='error'){el.innerHTML=empty('자격증 데이터를 불러오지 못했습니다','네트워크 상태를 확인해 주세요. 저장한 목표와 취득 상태는 유지됩니다.',`<button class="btn" data-act="retry">다시 시도</button>`);return}
@@ -53,6 +78,7 @@ function renderList(){const el=$('#lb');
   h+=`<div class="chips" style="margin-bottom:6px"><button class="chip${S.sort==='deadline'?' on':''}" data-act="sort" data-v="deadline">마감 임박순</button><button class="chip${S.sort==='fee'?' on':''}" data-act="sort" data-v="fee">응시료순</button></div>`;
   h+=L.length?L.map(cardH).join(''):empty('선택하신 조건에 맞는 자격증이 없습니다','조건을 줄이거나 추천 분야로 다시 찾아보세요',`<button class="btn pr" data-act="reset">필터 초기화</button><div class="sub" style="margin:12px 0 6px">추천 분야</div><div class="chips" style="justify-content:center">${FIELDS.slice(0,3).map(f=>`<button class="chip" data-act="quick" data-v="${f}" data-keep="0">${f}</button>`).join('')}</div>`);
   el.innerHTML=h}
+
 function renderMy(){const T=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).sort((a,b)=>dayOf(a.c)-dayOf(b.c));
   let h=`<div class="tabs"><button class="${S.my==='dday'?'on':''}" data-act="mytab" data-v="dday">목표 D-Day</button><button class="${S.my==='status'?'on':''}" data-act="mytab" data-v="status">취득 상태</button></div>`;
   const none=empty('아직 등록된 목표 시험이 없습니다','관심 있는 자격증을 찾아 시험일을 등록해 보세요',`<button class="btn" data-act="nav" data-v="list">자격증 탐색하러 가기</button>`);
@@ -62,6 +88,7 @@ function renderMy(){const T=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).s
   }else{const st=getS(),ids=Object.keys(st).map(Number).filter(byId);
     if(!ids.length)h+=none;else h+=ids.map(id=>{const c=byId(id);return `<div class="row sp" style="padding:11px 0;border-bottom:1px dashed var(--line)"><span class="t">${c.name}</span><div class="chips">${['준비중','합격'].map(v=>`<button class="chip${st[id]===v?' on':''}" data-act="status" data-id="${id}" data-v="${v}">${v}</button>`).join('')}</div></div>`}).join('')}
   $('#v-my').innerHTML=h}
+
 function renderModal(){const m=S.modal,el=$('#modal');if(!m){el.innerHTML='';return}
   const c=byId(m.id),T=getT(),reg=T.find(s=>tId(s)===c.id),rs=c.rounds.filter(r=>dd(r.examDate)>=0);
   const sel=m.roundId||(reg?tR(reg):rs[0].roundId),r=rs.find(x=>x.roundId===sel)||rs[0];
@@ -71,14 +98,17 @@ function renderModal(){const m=S.modal,el=$('#modal');if(!m){el.innerHTML='';ret
   <div class="bar">${S.toast?`<div class="toast"><span>${S.toast}</span><span>${D(dd(r.examDate))}</span></div>`:''}
   <a class="btn ln" href="${c.officialUrl}" target="_blank" rel="noopener noreferrer">공식 접수처 바로가기 ↗</a>
   ${reg?`<div class="row"><div class="btn" style="flex:2">✓ 등록 완료</div><button class="btn ln" style="flex:1" data-act="unsave">취소</button></div>`:`<button class="btn pr" data-act="save">목표 D-Day 등록</button>`}</div></div>`}
+
 function refresh(){renderHome();renderMy()}
 function save(){const m=S.modal,c=byId(m.id),T=getT().filter(s=>tId(s)!==c.id),r=m.roundId||nextR(c).roundId;
   T.push(c.id+':'+r);lsSet('targetExams',T);const st=getS();if(!st[c.id]){st[c.id]='준비중';lsSet('myCertStatus',st)}}
 let tt;function toast(t){S.toast=t;clearTimeout(tt);tt=setTimeout(()=>{S.toast='';renderModal()},2800)}
+
 function nav(v){const cur=document.querySelector('.view:not([hidden])');if(cur)S.scroll[S.tab]=cur.scrollTop;S.tab=v;
   document.querySelectorAll('.view').forEach(e=>e.hidden=e.id!=='v-'+v);
   document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));
   if(v==='home')renderHome();if(v==='my')renderMy();$('#v-'+v).scrollTop=S.scroll[v]||0}
+
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act,d=b.dataset;
   if(b.type!=='radio'&&b.tagName==='INPUT')return;
   switch(a){
@@ -100,8 +130,11 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(
   case'retry':load();break;
   case'demoErr':S.failOnce=true;load();break;
   case'resetData':if(confirm('저장된 목표 D-Day와 취득 상태를 모두 지울까요?')){lsSet('targetExams',[]);lsSet('myCertStatus',{});refresh();renderModal()}break}});
+
 document.addEventListener('change',e=>{if(e.target.name==='rd'){const m=S.modal,c=byId(m.id);m.roundId=e.target.value;
   if(getT().some(s=>tId(s)===c.id)){save();toast('목표 회차가 변경되었습니다');refresh()}renderModal()}});
+
 $('#q').addEventListener('input',e=>{S.q=e.target.value;if(S.status==='ready')renderList()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&S.modal){S.modal=null;renderModal()}});
+
 nav('home');load();

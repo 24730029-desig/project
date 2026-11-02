@@ -157,3 +157,17 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
 .toast{border:1.5px solid var(--ink);border-radius:8px;background:var(--fill);padding:10px 12px;font-size:12.5px;display:flex;justify-content:space-between}
 a.btn{text-decoration:none;color:var(--ink)}
 button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+/* JSON/API 데이터 출처 플래그 */
+.data-legend{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:12px 0;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--fill);font-size:11.5px;color:var(--muted)}
+.data-legend b{color:var(--ink);margin-right:2px}
+.source-badge{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;padding:0 5px;border:1px solid #26734d;border-radius:5px;background:#e8f5ed;color:#175b38;font-size:11px;font-weight:800;line-height:1}
+.source-badge.api{border-color:#2859a8;background:#eaf1ff;color:#20498c}
+
+/* 이름 옆 데이터 출처 아이콘 및 일정 상태 태그 */
+.cert-name{display:inline-flex;align-items:center;gap:6px;min-width:0;flex-wrap:wrap}
+.source-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;width:18px;height:20px;border:1px solid #26734d;border-radius:4px;background:#e8f5ed;color:#175b38;font-size:10px;font-weight:800;line-height:1}
+.source-icon.api{border-color:#2859a8;background:#eaf1ff;color:#20498c}
+.card .dd{white-space:nowrap}
+.card .dd.status-open{background:#e8f5ed;color:#175b38;border:1px solid #b9dfc9}
+.card .dd.status-pending{background:#fff4d6;color:#805b00;border:1px solid #f0d98b}
+.card .dd.status-check{background:#fbe9e7;color:#9d241b;border:1px solid #efc0ba}

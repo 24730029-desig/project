@@ -4,7 +4,7 @@ const TODAY=new Date();TODAY.setHours(0,0,0,0);
 const p2=n=>String(n).padStart(2,'0');
 const isoOff=o=>{const d=new Date(TODAY);d.setDate(d.getDate()+o);return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate())};
 const dd=iso=>Math.round((new Date(iso+'T00:00:00')-TODAY)/864e5);
-const D=n=>n===9999?'일정 미정':n===0?'D-DAY':'D-'+n;
+const D=n=>n===9999?'일정 미정':n===0?'D-DAY':n<0?'D+'+Math.abs(n):'D-'+n;
 const dots=n=>'●'.repeat(n)+'○'.repeat(3-n);
 const md=iso=>iso.slice(5).replace('-','.');
 const won=n=>n==null?'확인 필요':Number(n).toLocaleString()+'원';
@@ -16,9 +16,11 @@ const tId=s=>+s.split(':')[0],tR=s=>s.split(':')[1];
 const byId=id=>S.certs.find(c=>c.id===id);
 const nextR=c=>c.rounds.filter(r=>dd(r.examDate)>=0).sort((a,b)=>a.examDate<b.examDate?-1:1)[0];
 const dayOf=c=>{const r=nextR(c);return r?dd(r.examDate):9999};
-const dLabel=c=>{const r=nextR(c);if(r)return D(dd(r.examDate));const st=c.researchStatus?.schedule||'';if(st==='상시')return '상시';if(st.startsWith('연중 시험일'))return '수시';if(st==='이번 회차 미시행')return '다음 회차 확인';if(st==='정기 일정(5·8·11월 등) 확인')return '일정 확인 필요';if(st==='공식 일정 확인 완료')return '다음 일정 발표 전';return '확인 필요'};
+const dDayLabel=c=>{const r=nextR(c);return r?D(dd(r.examDate)):''};
+const scheduleLabel=c=>{const t=c.scheduleType||'';if(t==='continuous')return '상시';if(t==='multiple_sessions')return '수시';if(t==='scheduled'||t==='scheduled_periodic')return '정기';if(t==='not_in_next_round')return '일정 발표 전';if(t==='unverified')return '일정 확인 필요';const st=c.researchStatus?.schedule||'';if(st==='상시')return '상시';if(st.startsWith('연중 시험일'))return '수시';if(st==='이번 회차 미시행')return '일정 발표 전';if(st==='정기 일정(5·8·11월 등) 확인')return '정기';if(st==='공식 일정 확인 완료')return '일정 발표 전';return '일정 확인 필요'};
+const dLabel=c=>dDayLabel(c)||scheduleLabel(c);
 const sourceIcon=c=>`<span class="source-icon ${c.dataSource==='A'?'api':''}" title="${c.dataSource==='A'?'API 응답':'JSON 데이터'}" aria-label="${c.dataSource==='A'?'API 응답':'JSON 데이터'}">${c.dataSource==='A'?'A':'J'}</span>`;
-const statusClass=c=>{const v=dLabel(c);return ['상시','수시'].includes(v)?'status-open':['일정 발표 전','다음 회차 확인','일정 확인 필요'].includes(v)?'status-pending':v==='확인 필요'?'status-check':''};
+const statusClass=c=>{const v=scheduleLabel(c);return ['상시','수시'].includes(v)?'status-open':v==='정기'?'status-regular':v==='일정 발표 전'?'status-pending':'status-check'};
 const noScheduleText=c=>{const st=c.researchStatus?.schedule||'';if(st==='상시')return '상시시험입니다. 지역·시험장별 개설 일정과 접수 가능 여부를 공식 페이지에서 확인하세요.';if(st==='이번 회차 미시행')return c.scheduleNote||'이번 회차는 시행하지 않습니다. 다음 회차 공지를 확인하세요.';if(st.startsWith('연중 시험일'))return c.scheduleNote||'등급·지역별 시험일을 공식 일정표에서 확인하세요.';return c.scheduleNote||'아직 확인된 시험일이 없습니다. 공식 시행기관의 일정을 확인해 주세요.'};
 
 function load(){S.status='loading';renderList();
@@ -50,7 +52,7 @@ function filtered(){const q=S.q.trim().toLowerCase();
   let l=S.certs.filter(c=>(!q||c.name.toLowerCase().includes(q))&&(!S.f.field||c.field===S.f.field)&&(!S.f.elig||c.eligibility===S.f.elig)&&(!S.f.diff||c.difficulty===+S.f.diff));
   return l.sort(S.sort==='fee'?(a,b)=>(a.fee??Infinity)-(b.fee??Infinity):(a,b)=>dayOf(a)-dayOf(b))}
 
-const cardH=c=>`<button class="card" data-act="open" data-id="${c.id}"><div class="row sp"><span class="t cert-name">${c.name}${sourceIcon(c)}</span><span class="dd ${statusClass(c)}">${dLabel(c)}</span></div><div class="badges"><span class="badge">${c.field}</span><span class="badge">${c.eligibility}</span><span class="badge">난이도 ${dots(c.difficulty)}</span><span class="badge">${won(c.fee)}</span></div></button>`;
+const cardH=c=>`<button class="card" data-act="open" data-id="${c.id}"><div class="row sp"><span class="t cert-name">${c.name}${sourceIcon(c)}</span><span class="card-status"><span class="schedule-tag ${statusClass(c)}">${scheduleLabel(c)}</span>${dDayLabel(c)?`<span class="dd">${dDayLabel(c)}</span>`:""}</span></div><div class="badges"><span class="badge">${c.field}</span><span class="badge">${c.eligibility}</span><span class="badge">난이도 ${dots(c.difficulty)}</span><span class="badge">${won(c.fee)}</span></div></button>`;
 const empty=(t,s,btn)=>`<div class="empty"><p><b>${t}</b>${s}</p>${btn}</div>`;
 
 function renderHome(){
@@ -111,7 +113,7 @@ function renderModal(){const m=S.modal,el=$('#modal');if(!m){el.innerHTML='';ret
   const c=byId(m.id),T=getT(),reg=T.find(s=>tId(s)===c.id),rs=c.rounds.filter(r=>dd(r.examDate)>=0);
   const sel=m.roundId||(reg?tR(reg):(rs[0]?.roundId)),r=rs.find(x=>x.roundId===sel)||rs[0];
   el.innerHTML=`<div class="ov" data-act="close"></div><div class="sheet" role="dialog" aria-label="${c.name} 상세"><div class="sb"><div class="sh"><span class="t cert-name" style="font-size:17px">${c.name}${sourceIcon(c)}</span><button class="chip" data-act="close">닫기 ✕</button></div>
-  <div class="sub">회차별 일정 (목표 회차 선택)</div>${rs.length?rs.map((x,i)=>`<label class="rr"><input type="radio" name="rd" value="${x.roundId}" ${x.roundId===r?.roundId?'checked':''} data-act="round"><span><b>${i+1}회차</b> 접수 ${x.applyStart} ~${x.applyEnd}<br>시험일 ${x.examDate} ·${D(dd(x.examDate))}</span></label>`).join(''):'<div class="box sub">등록된 시험 일정이 없습니다. 공식 시행기관에서 최신 일정을 확인해 주세요.</div>'}
+  <div class="row sp" style="margin:8px 0"><span class="schedule-tag ${statusClass(c)}">${scheduleLabel(c)}</span>${r?`<span class="dd">${D(dd(r.examDate))}</span>`:""}</div><div class="sub">회차별 일정 (목표 회차 선택)</div>${rs.length?rs.map((x,i)=>`<label class="rr"><input type="radio" name="rd" value="${x.roundId}" ${x.roundId===r?.roundId?'checked':''} data-act="round"><span><b>${i+1}회차</b> 접수 ${x.applyStart} ~${x.applyEnd}<br>시험일 ${x.examDate} ·${D(dd(x.examDate))}</span></label>`).join(''):'<div class="box sub">등록된 시험 일정이 없습니다. 공식 시행기관에서 최신 일정을 확인해 주세요.</div>'}
   ${c.overview?`<div class="sr" style="margin-top:8px"><b>소개</b><span>${c.overview}</span></div>`:''}<div class="sr" style="margin-top:6px"><b>응시 자격</b><span style="text-align:right">${c.eligibilityText}</span></div><div class="sr"><b>응시료</b><span>${won(c.fee)}${c.feeDetails?`<div class="sub">${Object.entries(c.feeDetails).map(([k,v])=>`${k} ${won(v)}`).join(" · ")}</div>`:""}${c.feeBasis?`<div class="sub">${c.feeBasis}</div>`:""}${c.feeSourceUrl?`<div class="sub">출처: <a href="${c.feeSourceUrl}" target="_blank" rel="noopener noreferrer">공식 응시료 안내 ↗</a></div>`:''}</span></div><div class="sr"><b>일정 확인</b><span>${c.researchStatus?.schedule|| (c.rounds?.length?'확인 완료':'미확인')}${c.scheduleSourceUrl?`<div class="sub"><a href="${c.scheduleSourceUrl}" target="_blank" rel="noopener noreferrer">공식 일정 안내 ↗</a></div>`:''}</span></div>${c.tags?.length?`<div class="sr"><b>태그</b><span>${c.tags.join(' · ')}</span></div>`:''}</div>
   <div class="bar">${S.toast?`<div class="toast"><span>${S.toast}</span><span>${r?D(dd(r.examDate)):dLabel(c)}</span></div>`:''}
   <a class="btn ln" href="${c.officialUrl}" target="_blank" rel="noopener noreferrer">공식 접수처 바로가기 ↗</a>

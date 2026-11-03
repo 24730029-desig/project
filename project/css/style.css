@@ -171,3 +171,12 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
 .card .dd.status-open{background:#e8f5ed;color:#175b38;border:1px solid #b9dfc9}
 .card .dd.status-pending{background:#fff4d6;color:#805b00;border:1px solid #f0d98b}
 .card .dd.status-check{background:#fbe9e7;color:#9d241b;border:1px solid #efc0ba}
+
+/* 일정 유형과 D-Day를 분리해 표시 */
+.card-status{display:flex;align-items:center;justify-content:flex-end;gap:5px;flex-wrap:wrap}
+.schedule-tag{display:inline-flex;align-items:center;white-space:nowrap;border:1px solid var(--ls);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;background:var(--fill);color:var(--ink)}
+.schedule-tag.status-open{background:#e8f5ed;color:#175b38;border-color:#b9dfc9}
+.schedule-tag.status-regular{background:#eaf0ff;color:#294b91;border-color:#c8d5f5}
+.schedule-tag.status-pending{background:#fff4d6;color:#805b00;border-color:#f0d98b}
+.schedule-tag.status-check{background:#fbe9e7;color:#9d241b;border-color:#efc0ba}
+.card .dd{font-size:12px;padding:3px 7px;margin:0;background:var(--ink);color:var(--paper);border-radius:6px;white-space:nowrap}

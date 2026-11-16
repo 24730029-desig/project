@@ -24,7 +24,7 @@ const md=iso=>iso.slice(5).replace('-','.');
 const won=n=>n==null?'확인 필요':Number(n).toLocaleString()+'원';
 const lsGet=(k,f)=>{try{const v=localStorage.getItem(k);return v?JSON.parse(v):f}catch(e){return f}};
 const lsSet=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
-const S={q:'',f:{field:'',sub:'',elig:'',diff:''},sort:'deadline',menu:'',certs:[],status:'loading',dataSource:'J',tab:'home',my:'dday',modal:null,toast:'',failOnce:false,scroll:{}};
+const S={q:'',f:{field:'',sub:'',elig:'',diff:''},sort:'deadline',menu:'',certs:[],status:'loading',dataSource:'J',tab:'home',my:'dday',delMode:false,delSel:[],modal:null,toast:'',failOnce:false,scroll:{}};
 const getT=()=>lsGet('targetExams',[]),getS=()=>lsGet('myCertStatus',{});
 const tId=s=>+s.split(':')[0],tR=s=>s.split(':')[1];
 const byId=id=>S.certs.find(c=>c.id===id);
@@ -136,8 +136,14 @@ function renderMy(){const T=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).s
   if(S.my==='dday'){
     if(!T.length)h+=none;else{h+=`<div class="row sp"><span class="sub">등록 ${T.length}건</span><button class="sub" data-act="resetAll" style="text-decoration:underline;min-height:34px">전체 초기화</button></div>`;
       h+=T.map(({s,c})=>{const r=c.rounds.find(r=>r.roundId===tR(s));return `<div class="row sp" style="border-bottom:1px dashed var(--line)"><button class="card" style="border:0;flex:1" data-act="open" data-id="${c.id}"><div class="t">${c.name}</div><div class="sub">시험일 ${r?r.examDate:'-'}</div></button><span class="dd">${r?D(dd(r.examDate)):dLabel(c)}</span><button class="chip" data-act="del" data-id="${c.id}" aria-label="${c.name} 삭제">삭제</button></div>`}).join('')}
-  }else{const st=getS(),ids=Object.keys(st).map(Number).filter(byId);
-    if(!ids.length)h+=none;else h+=ids.map(id=>{const c=byId(id);return `<div class="row sp" style="padding:11px 0;border-bottom:1px dashed var(--line)"><span class="t">${c.name}</span><div class="chips">${['준비중','합격'].map(v=>`<button class="chip${st[id]===v?' on':''}" data-act="status" data-id="${id}" data-v="${v}">${v}</button>`).join('')}</div></div>`}).join('')}
+  }else{const st=getS(),ids=Object.keys(st).map(Number).filter(byId),dm=S.delMode&&ids.length>0,sel=S.delSel.filter(id=>ids.includes(id));
+    if(!ids.length)h+=none;else{
+      h+=dm?`<div class="row sp" style="margin:2px 0 4px"><label class="row" style="gap:8px;min-height:36px;cursor:pointer"><input type="checkbox" class="ck" data-act="selall" ${sel.length===ids.length?'checked':''}><span class="t" style="font-size:14px">전체 선택</span></label><button class="sub" data-act="delcancel" style="text-decoration:underline;min-height:34px">취소</button></div>`
+        :`<div class="row sp" style="margin:2px 0 4px"><span class="sub">총 ${ids.length}건</span><button class="sub" data-act="delmode" style="text-decoration:underline;min-height:34px">삭제</button></div>`;
+      h+=ids.map(id=>{const c=byId(id);return dm
+        ?`<label class="row" style="gap:10px;padding:12px 0;border-bottom:1px dashed var(--line);cursor:pointer"><input type="checkbox" class="ck" data-act="selone" data-id="${id}" ${sel.includes(id)?'checked':''}><span class="t" style="flex:1;min-width:0">${c.name}</span><span class="sub">${st[id]}</span></label>`
+        :`<div class="row sp" style="padding:11px 0;border-bottom:1px dashed var(--line)"><span class="t" style="flex:1;min-width:0">${c.name}</span><div class="chips" style="flex:0 0 auto;flex-wrap:nowrap">${['준비중','합격'].map(v=>`<button class="chip${st[id]===v?' on':''}" data-act="status" data-id="${id}" data-v="${v}">${v}</button>`).join('')}</div></div>`}).join('');
+      if(dm)h+=`<div class="delbar"><button class="btn pr" data-act="delsel" ${sel.length?'':'disabled'}>선택 삭제 (${sel.length})</button></div>`}}
   $('#v-my').innerHTML=h}
 
 function renderModal(){const m=S.modal,el=$('#modal');if(!m){el.innerHTML='';return}
@@ -178,13 +184,19 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(
   case'unsave':{const id=S.modal.id;lsSet('targetExams',getT().filter(s=>tId(s)!==id));toast('등록이 취소되었습니다');renderModal();refresh();break}
   case'del':lsSet('targetExams',getT().filter(s=>tId(s)!==+d.id));renderMy();renderHome();break;
   case'resetAll':if(confirm('등록된 목표 D-Day를 모두 삭제할까요?')){lsSet('targetExams',[]);refresh()}break;
-  case'mytab':S.my=d.v;renderMy();break;
+  case'mytab':S.my=d.v;S.delMode=false;S.delSel=[];renderMy();break;
+  case'delmode':S.delMode=true;S.delSel=[];renderMy();break;
+  case'delcancel':S.delMode=false;S.delSel=[];renderMy();break;
+  case'delsel':{const n=S.delSel.length;if(n&&confirm('선택한 '+n+'개 자격증의 취득 상태를 삭제할까요?')){const st=getS();S.delSel.forEach(id=>delete st[id]);lsSet('myCertStatus',st);S.delMode=false;S.delSel=[];toast(n+'개의 취득 상태가 삭제되었습니다');renderMy()}break}
   case'status':{const st=getS();st[d.id]=d.v;lsSet('myCertStatus',st);renderMy();break}
   case'retry':load();break;
   case'demoErr':S.failOnce=true;load();break;
   case'resetData':if(confirm('저장된 목표 D-Day와 취득 상태를 모두 지울까요?')){lsSet('targetExams',[]);lsSet('myCertStatus',{});refresh();renderModal()}break}});
 
-document.addEventListener('change',e=>{if(e.target.name==='rd'){const m=S.modal,c=byId(m.id);m.roundId=e.target.value;
+document.addEventListener('change',e=>{const t=e.target;
+  if(t.dataset&&t.dataset.act==='selall'){const ids=Object.keys(getS()).map(Number).filter(byId);S.delSel=t.checked?ids:[];renderMy();return}
+  if(t.dataset&&t.dataset.act==='selone'){const id=+t.dataset.id;S.delSel=t.checked?[...new Set([...S.delSel,id])]:S.delSel.filter(x=>x!==id);renderMy();return}
+  if(e.target.name==='rd'){const m=S.modal,c=byId(m.id);m.roundId=e.target.value;
   if(getT().some(s=>tId(s)===c.id)){save();toast('목표 회차가 변경되었습니다');refresh()}renderModal()}});
 
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&S.modal){S.modal=null;renderModal()}});

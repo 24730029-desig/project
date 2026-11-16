@@ -212,6 +212,11 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
 .rkrow{display:block}
 .rk{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;width:22px;height:22px;margin-right:0;border-radius:6px;background:var(--ink);color:var(--paper);font-size:12.5px;font-weight:800;padding:0;width:22px}
 
+.ck{width:20px;height:20px;accent-color:var(--ink);flex:0 0 auto;cursor:pointer}
+.delbar{position:sticky;bottom:0;padding:12px 0 4px;background:linear-gradient(rgba(255,255,255,0),#fff 30%)}
+.delbar .btn{width:100%}
+.delbar .btn:disabled{opacity:.4;cursor:not-allowed}
+
 /* 목표 1개일 때 히어로 카드 */
 .hero{display:block;width:100%;text-align:left;padding:18px 16px}
 .hero-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
@@ -234,6 +239,7 @@ html{-webkit-text-size-adjust:100%}
 .view{min-height:0;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 .nav{padding-bottom:max(env(safe-area-inset-bottom),0px)}
 @media (min-width:500px){
-  /* PC: 기기 프레임 없이 화면(402px 폭)만 가운데에 표시. 모달(fixed)은 이 영역 안에 가둠 */
-  .app{transform:translateZ(0);box-shadow:0 0 24px rgba(0,0,0,.08)}
+  /* PC: 프레임 없이 402 x 874(아이폰 17) 크기의 화면만 가운데에 표시. 모달(fixed)은 이 영역 안에 가둠 */
+  body{align-items:center}
+  .app{height:min(100vh,874px);height:min(100dvh,874px);transform:translateZ(0);box-shadow:0 0 24px rgba(0,0,0,.08)}
 }

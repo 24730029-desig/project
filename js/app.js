@@ -25,7 +25,16 @@ const won=n=>n==null?'확인 필요':Number(n).toLocaleString()+'원';
 const lsGet=(k,f)=>{try{const v=localStorage.getItem(k);return v?JSON.parse(v):f}catch(e){return f}};
 const lsSet=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
 const S={q:'',f:{field:'',sub:'',elig:'',diff:''},sort:'deadline',menu:'',certs:[],status:'loading',dataSource:'J',tab:'home',my:'dday',delMode:false,delSel:[],modal:null,toast:'',failOnce:false,scroll:{}};
-const getT=()=>lsGet('targetExams',[]),getS=()=>lsGet('myCertStatus',{});
+// ── 저장소 계층: 모든 목표 D-Day / 취득 상태 읽기·쓰기는 여기만 거칩니다. ──
+// 지금은 localStorage만 쓰고, v0.6에서 Firebase 동기화를 syncHooks에 등록합니다.
+const SYNC_KEYS=['targetExams','myCertStatus'];
+const syncHooks=[];                       // (key, value) => void : 클라우드 저장 함수가 여기에 등록됨
+const store={
+  get:(k,f)=>lsGet(k,f),
+  set(k,v){lsSet(k,v);if(SYNC_KEYS.includes(k))syncHooks.forEach(fn=>{try{fn(k,v)}catch(e){console.warn('sync hook 실패(로컬 저장은 유지)',e)}})}
+};
+const getT=()=>store.get('targetExams',[]),getS=()=>store.get('myCertStatus',{});
+const setT=v=>store.set('targetExams',v),setS=v=>store.set('myCertStatus',v);
 const tId=s=>+s.split(':')[0],tR=s=>s.split(':')[1];
 const byId=id=>S.certs.find(c=>c.id===id);
 const nextR=c=>c.rounds.filter(r=>dd(r.examDate)>=0).sort((a,b)=>a.examDate<b.examDate?-1:1)[0];
@@ -158,7 +167,7 @@ function renderModal(){const m=S.modal,el=$('#modal');if(!m){el.innerHTML='';ret
 
 function refresh(){renderHome();renderMy()}
 function save(){const m=S.modal,c=byId(m.id),T=getT().filter(s=>tId(s)!==c.id),nr=nextR(c);if(!nr)return;const r=m.roundId||nr.roundId;
-  T.push(c.id+':'+r);lsSet('targetExams',T);const st=getS();if(!st[c.id]){st[c.id]='준비중';lsSet('myCertStatus',st)}}
+  T.push(c.id+':'+r);setT(T);const st=getS();if(!st[c.id]){st[c.id]='준비중';setS(st)}}
 let tt;function toast(t){S.toast=t;clearTimeout(tt);tt=setTimeout(()=>{S.toast='';renderModal()},2800)}
 
 function nav(v){const cur=document.querySelector('.view:not([hidden])');if(cur)S.scroll[S.tab]=cur.scrollTop;S.tab=v;
@@ -181,17 +190,17 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(
   case'open':S.modal={id:+d.id,roundId:null};S.toast='';renderModal();break;
   case'close':S.modal=null;S.toast='';renderModal();break;
   case'save':save();toast('목표 D-Day로 저장되었습니다');renderModal();refresh();break;
-  case'unsave':{const id=S.modal.id;lsSet('targetExams',getT().filter(s=>tId(s)!==id));toast('등록이 취소되었습니다');renderModal();refresh();break}
-  case'del':lsSet('targetExams',getT().filter(s=>tId(s)!==+d.id));renderMy();renderHome();break;
-  case'resetAll':if(confirm('등록된 목표 D-Day를 모두 삭제할까요?')){lsSet('targetExams',[]);refresh()}break;
+  case'unsave':{const id=S.modal.id;setT(getT().filter(s=>tId(s)!==id));toast('등록이 취소되었습니다');renderModal();refresh();break}
+  case'del':setT(getT().filter(s=>tId(s)!==+d.id));renderMy();renderHome();break;
+  case'resetAll':if(confirm('등록된 목표 D-Day를 모두 삭제할까요?')){setT([]);refresh()}break;
   case'mytab':S.my=d.v;S.delMode=false;S.delSel=[];renderMy();break;
   case'delmode':S.delMode=true;S.delSel=[];renderMy();break;
   case'delcancel':S.delMode=false;S.delSel=[];renderMy();break;
-  case'delsel':{const n=S.delSel.length;if(n&&confirm('선택한 '+n+'개 자격증의 취득 상태를 삭제할까요?')){const st=getS();S.delSel.forEach(id=>delete st[id]);lsSet('myCertStatus',st);S.delMode=false;S.delSel=[];toast(n+'개의 취득 상태가 삭제되었습니다');renderMy()}break}
-  case'status':{const st=getS();st[d.id]=d.v;lsSet('myCertStatus',st);renderMy();break}
+  case'delsel':{const n=S.delSel.length;if(n&&confirm('선택한 '+n+'개 자격증의 취득 상태를 삭제할까요?')){const st=getS();S.delSel.forEach(id=>delete st[id]);setS(st);S.delMode=false;S.delSel=[];toast(n+'개의 취득 상태가 삭제되었습니다');renderMy()}break}
+  case'status':{const st=getS();st[d.id]=d.v;setS(st);renderMy();break}
   case'retry':load();break;
   case'demoErr':S.failOnce=true;load();break;
-  case'resetData':if(confirm('저장된 목표 D-Day와 취득 상태를 모두 지울까요?')){lsSet('targetExams',[]);lsSet('myCertStatus',{});refresh();renderModal()}break}});
+  case'resetData':if(confirm('저장된 목표 D-Day와 취득 상태를 모두 지울까요?')){setT([]);setS({});refresh();renderModal()}break}});
 
 document.addEventListener('change',e=>{const t=e.target;
   if(t.dataset&&t.dataset.act==='selall'){const ids=Object.keys(getS()).map(Number).filter(byId);S.delSel=t.checked?ids:[];renderMy();return}

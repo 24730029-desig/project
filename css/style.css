@@ -522,13 +522,12 @@ body,button,input,.dd,.hero .dd,.d3 .dd,.box .dd,.card .dd,.brand,.rk,.t{font-fa
 .xbtn{flex:0 0 auto;width:30px;height:30px;border-radius:50%;font-size:20px;line-height:1;color:var(--muted);background:var(--fill);display:flex;align-items:center;justify-content:center;padding:0}
 .xbtn:active{background:var(--fd);color:var(--dk)}
 
-/* 위아래 여백 줄이기 */
-.top{padding:calc(8px + env(safe-area-inset-top)) 20px 0}
-.eyebrow{margin:0;line-height:1.2}
-.brand{line-height:1.15}
-.view{padding:6px 20px 8px}
-.nav{margin:0 16px calc(6px + env(safe-area-inset-bottom))}
-.nav button{min-height:50px}
-@media (min-width:500px){.nav{margin-bottom:6px}}
-.sec{margin-top:12px}
-.sec:first-child{margin-top:0}
+/* PC: 창 위아래 빈 공간 없이 화면 높이를 꽉 채움 (너비만 402px로 가운데 정렬) */
+@media (min-width:500px){
+  body{align-items:stretch;background:var(--bg)}
+  .app{height:100vh;height:100dvh;box-shadow:0 0 40px rgba(63,125,110,.12)}
+}
+
+/* 삭제 ×: 원 배경 없이 글자만 */
+.xbtn,.xbtn:active{background:none;border-radius:0;width:28px;font-size:22px;color:var(--muted)}
+.xbtn:active{color:var(--dk)}

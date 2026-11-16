@@ -506,3 +506,29 @@ body,button,input,.dd,.hero .dd,.d3 .dd,.box .dd,.card .dd,.brand,.rk,.t{font-fa
 /* 상세 모달: 소개·응시 자격 등 값 텍스트를 왼쪽 정렬 */
 .sr{justify-content:flex-start;text-align:left}
 .sr>span{flex:1;text-align:left}
+
+/* 상세 모달 값 텍스트 전부 왼쪽 정렬 (줄바꿈 포함) */
+.sr,.sr *{text-align:left}
+.sr>span{flex:1;min-width:0;word-break:keep-all;overflow-wrap:anywhere}
+.bar .btn.ln[data-act="unsave"]{background:var(--fd);border-color:var(--deep);color:var(--dk);font-weight:700}
+
+/* 마이: 취득 상태 그룹(준비중/합격) */
+.grp{margin-top:10px}
+.grp-h{display:flex;align-items:baseline;gap:6px;padding:6px 0 4px;border-bottom:2px solid var(--deep)}
+.grp-h .t{font-size:14px;font-weight:800;color:var(--dk)}
+.grp-e{padding:14px 0;text-align:left}
+
+/* 삭제 버튼 → × */
+.xbtn{flex:0 0 auto;width:30px;height:30px;border-radius:50%;font-size:20px;line-height:1;color:var(--muted);background:var(--fill);display:flex;align-items:center;justify-content:center;padding:0}
+.xbtn:active{background:var(--fd);color:var(--dk)}
+
+/* 위아래 여백 줄이기 */
+.top{padding:calc(8px + env(safe-area-inset-top)) 20px 0}
+.eyebrow{margin:0;line-height:1.2}
+.brand{line-height:1.15}
+.view{padding:6px 20px 8px}
+.nav{margin:0 16px calc(6px + env(safe-area-inset-bottom))}
+.nav button{min-height:50px}
+@media (min-width:500px){.nav{margin-bottom:6px}}
+.sec{margin-top:12px}
+.sec:first-child{margin-top:0}

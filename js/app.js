@@ -187,7 +187,14 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(
 document.addEventListener('change',e=>{if(e.target.name==='rd'){const m=S.modal,c=byId(m.id);m.roundId=e.target.value;
   if(getT().some(s=>tId(s)===c.id)){save();toast('목표 회차가 변경되었습니다');refresh()}renderModal()}});
 
-$('#q').addEventListener('input',e=>{S.q=e.target.value;if(S.status==='ready')renderList()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&S.modal){S.modal=null;renderModal()}});
 
-nav('home');load();
+// pages/ 폴더의 화면 HTML을 불러온 뒤 앱을 시작합니다. (home → v-home, search → v-list, my → v-my)
+const PAGES=['home','search','my'];
+async function loadPages(){
+  const parts=await Promise.all(PAGES.map(async n=>{const r=await fetch('pages/'+n+'.html');if(!r.ok)throw new Error(n+' '+r.status);return r.text()}));
+  $('#pages').innerHTML=parts.join('')}
+loadPages().then(()=>{
+  $('#q').addEventListener('input',e=>{S.q=e.target.value;if(S.status==='ready')renderList()});
+  nav('home');load()
+}).catch(()=>{$('#pages').innerHTML='<section class="view"><div class="box"><div class="t">화면 파일(pages/)을 불러오지 못했습니다</div><p class="sub" style="margin:8px 0">index.html을 더블클릭해서 열면 보안 때문에 pages/ 폴더를 읽을 수 없습니다. project 폴더에서 <b>python3 -m http.server 8000</b> 실행 후 <b>http://localhost:8000</b> 으로 열어 주세요. (GitHub Pages에서는 그대로 동작합니다.)</p></div></section>'});

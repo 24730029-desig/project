@@ -606,3 +606,140 @@ body,button,input,.dd,.hero .dd,.d3 .dd,.box .dd,.card .dd,.brand,.rk,.t{font-fa
 .md-row input[type=date]{flex:1;min-width:0;height:44px;padding:0 12px;border:1px solid var(--ls);border-radius:12px;background:#fff;color:var(--ink);font:inherit;font-size:14px}
 .md-row .btn{flex:0 0 auto;width:auto;padding:0 16px;min-height:44px}
 .mydate p{line-height:1.5}
+
+/* =====================================================================
+   주요 색 — #89CFD3(스카이) · #6FB6BA(메인 틸) · #F89494(코랄 포인트)
+   글자용 진한 톤: --dk #2F7A80 / 주요 색 위 글자 --on #0F3235 (대비 확보용 파생색)
+   ===================================================================== */
+:root{
+  --bg:#F6FBFB;--paper:#F6FBFB;--card:#FFFFFF;--desk:#E3F4F5;--fill:#E6F4F5;--fd:#CDE9EB;
+  --line:#DCEDEE;--ls:#C6E2E4;--ink:#1D3A3C;--muted:#5E7F82;--mark:#6FB6BA;
+  --deep:#6FB6BA;--accent:#6FB6BA;--accent-d:#2F7A80;--accent-l:#89CFD3;
+  --dk:#2F7A80;--on:#0F3235;--co:#F89494;--co-d:#3D1515;--co-l:#FDE3E3;
+}
+body,.app,.view,#v-home{background:#F6FBFB}
+@media (min-width:500px){body{background:#E3F4F5}.app{box-shadow:0 0 40px rgba(47,122,128,.14)}}
+.brand .b2{color:#6FB6BA}
+.eyebrow{color:#5E7F82}
+/* 메인 버튼·선택 */
+.btn.pr{background:#6FB6BA;color:#0F3235;box-shadow:0 6px 16px rgba(111,182,186,.45)}
+.btn.pr:active{background:#5FA5A9}
+.btn.ln{background:#fff;border:1px solid #C6E2E4;color:#1D3A3C}
+.bar .btn.ln[data-act="unsave"]{background:#E6F4F5;border-color:#89CFD3;color:#2F7A80}
+.chip.on,.chip:active,.ftab.set,.panel .chip.on{background:#89CFD3;border-color:#6FB6BA;color:#0F3235}
+.ftab.open{border-color:#6FB6BA;box-shadow:0 0 0 1px #6FB6BA}
+.sorts button.on,.tabs .on{color:#2F7A80;border-bottom-color:#6FB6BA;box-shadow:inset 0 -2px 0 #6FB6BA}
+.sorts button.on{box-shadow:none;border-bottom:1.5px solid #6FB6BA}
+.nav{box-shadow:0 8px 24px rgba(47,122,128,.14)}
+.nav button.on{color:#2F7A80}.nav button.on svg{stroke:#2F7A80}
+.inp:focus{border-color:#6FB6BA}
+.ck,input[type=radio]{accent-color:#6FB6BA}
+/* 히어로 카드: 메인 틸 + 진한 글자 */
+.box.hero{background:#6FB6BA;color:#0F3235;box-shadow:0 14px 30px rgba(111,182,186,.5)}
+.box.hero::before{background:radial-gradient(circle at 35% 35%,#FFFFFF,#BFE7EA 55%,#89CFD3)}
+.hero .t,.hero .dd{color:#0F3235}
+.hero-ap,.hero-ap.closed,.hero-ap.open,.hero-ap.soon{background:rgba(255,255,255,.4);color:#0F3235;backdrop-filter:none}
+.hero-ap.hot{background:#F89494;color:#3D1515}
+.hero-bar{background:rgba(255,255,255,.4)}
+.hero-bar i{background:#F89494}
+.hero-info>div{background:rgba(255,255,255,.3);color:#0F3235}
+.hero-info b,.hero .meta,.hero .sub{color:rgba(15,50,53,.75)}
+.hero-empty .dd{color:rgba(15,50,53,.28)}
+.hero-empty .btn.pr{background:#fff;color:#2F7A80;box-shadow:none}
+/* 코랄 포인트: D-Day 배지·순위·경고 */
+.card .dd,.rk{background:#F89494;color:#3D1515}
+.card .dd.status-open{background:#E6F4F5;color:#2F7A80;border:0}
+.schedule-tag.status-open,.schedule-tag.status-regular{background:#DDF1F2;color:#2F7A80}
+.schedule-tag.status-check{background:#FDE3E3;color:#A33A3A}
+.source-icon,.source-badge{background:#DDF1F2;border-color:#89CFD3;color:#2F7A80}
+.my-dd,.d3 .dd,.box .dd{color:#2F7A80}
+.sv .my-dd,.ng-row .my-dd{color:#2F7A80}
+.grp-h,.ng-h{border-bottom-color:#6FB6BA}.grp-h .t,.ng-h .t{color:#2F7A80}
+.panel{background:#E6F4F5}.panel .chip{background:#fff}
+.bar{background:#E6F4F5;border-top:1px solid #DCEDEE}
+.toast{border-color:#6FB6BA;color:#2F7A80}
+.sheet a:not(.btn),.sr a{color:#2F7A80;text-decoration-color:#89CFD3}
+.cf-msg{background:#6FB6BA;color:#0F3235;box-shadow:0 8px 24px rgba(111,182,186,.45)}
+.mydate{background:#E6F4F5}
+.delbar{background:linear-gradient(rgba(246,251,251,0),#F6FBFB 30%)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline-color:#6FB6BA}
+
+/* =====================================================================
+   최종: 주요 색 3가지 + 흰색
+   #8DBFC2 · #5F9EA2 · #F2AFC0 / 나머지 면(배경·카드·패널·바)은 전부 #FFFFFF
+   글자용 진한 틸(#1D3A3C)·보조 회색(#5E7F82)과 연한 구분선(#D4EDEF)만 보조로 사용
+   ===================================================================== */
+:root{
+  --bg:#FFFFFF;--paper:#FFFFFF;--card:#FFFFFF;--desk:#FFFFFF;--fill:#FFFFFF;--fd:#FFFFFF;
+  --line:#D4EDEF;--ls:#BFE5E8;--ink:#1D3A3C;--muted:#5E7F82;--mark:#5F9EA2;
+  --deep:#5F9EA2;--accent:#5F9EA2;--accent-d:#3F7C80;--accent-l:#8DBFC2;--dk:#3F7C80;--on:#FFFFFF;--co:#F2AFC0;
+}
+body,.app,.view,#v-home,#v-my,#v-list,.sheet,.bar,.panel,.top,.skel{background:#FFFFFF}
+@media (min-width:500px){body{background:#FFFFFF}.app{box-shadow:0 0 0 1px #D4EDEF,0 10px 40px rgba(95,158,162,.18)}}
+/* 카드·패널·빈 상태: 흰 면 + 연한 선 */
+.card,.box:not(.hero),.empty,.panel,.mydate,.cert-card{background:#FFFFFF;border:1px solid #D4EDEF;box-shadow:none}
+.card{border:1px solid #D4EDEF}
+.my-row .card,.my-name{border:0}
+.bar{border-top:1px solid #D4EDEF}
+.delbar{background:linear-gradient(rgba(255,255,255,0),#FFFFFF 30%)}
+/* 버튼 */
+.btn{background:#FFFFFF;border:1px solid #8DBFC2;color:#1D3A3C}
+.btn.pr{background:#5F9EA2;border-color:#5F9EA2;color:#FFFFFF;box-shadow:0 6px 16px rgba(95,158,162,.4);font-weight:800}
+.btn.pr:active{background:#8DBFC2}
+.btn.ln{background:#FFFFFF;border:1px solid #8DBFC2;color:#1D3A3C}
+.bar .btn.ln[data-act="unsave"]{background:#FFFFFF;border:1.5px solid #5F9EA2;color:#1D3A3C}
+.hero-empty .btn.pr,.box.hero.nodate .btn{background:#FFFFFF;color:#1D3A3C;border-color:#FFFFFF;box-shadow:none}
+/* 칩·필터·탭 */
+.chip,.ftab,.panel .chip{background:#FFFFFF;border:1px solid #BFE5E8;color:#1D3A3C;box-shadow:none}
+.chip.on,.chip:active,.ftab.set,.panel .chip.on{background:#8DBFC2;border-color:#8DBFC2;color:#FFFFFF;font-weight:800}
+.ftab.open{border-color:#5F9EA2;box-shadow:none}
+.sorts button.on,.tabs .on{color:#1D3A3C;font-weight:800;border-bottom:0;box-shadow:inset 0 -3px 0 #5F9EA2}
+.tabs{border-bottom:1px solid #D4EDEF}
+/* 태그·배지 */
+.schedule-tag,.schedule-tag.status-open,.schedule-tag.status-regular,.schedule-tag.status-pending{background:#FFFFFF;border:1px solid #8DBFC2;color:#3F7C80}
+.schedule-tag.status-check{background:#FFFFFF;border:1px solid #F2AFC0;color:#1D3A3C}
+.source-icon,.source-badge{background:#FFFFFF;border:1px solid #8DBFC2;color:#3F7C80}
+.card .dd,.rk{background:#F2AFC0;color:#FFFFFF;border:0;font-weight:800}
+.card .dd.status-open{background:#5F9EA2;color:#FFFFFF;border:0}
+.card .dd.status-pending,.card .dd.status-check{background:#F2AFC0;color:#FFFFFF;border:0}
+/* D-Day 숫자 */
+.my-dd,.ng-row .my-dd,.d3 .dd,.box:not(.hero) .dd{color:#5F9EA2}
+.my-dd.sm{color:#5E7F82}
+.grp-h,.ng-h{border-bottom:2px solid #5F9EA2}.grp-h .t,.ng-h .t{color:#1D3A3C}
+.xbtn{color:#5E7F82}.xbtn:active{color:#F2AFC0}
+/* 히어로: 스카이 → 메인 틸 그라데이션 + 흰 글자 */
+.box.hero{background:linear-gradient(135deg,#8DBFC2 0%,#5F9EA2 100%);color:#FFFFFF;border:0;box-shadow:0 14px 30px rgba(95,158,162,.45)}
+.box.hero::before{background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.85),rgba(255,255,255,.25) 60%,rgba(255,255,255,0))}
+.hero .t,.hero .dd{color:#FFFFFF}
+.hero-ap,.hero-ap.closed,.hero-ap.open,.hero-ap.soon{background:rgba(255,255,255,.28);color:#FFFFFF}
+.hero-ap.hot{background:#F2AFC0;color:#FFFFFF}
+.hero-bar{background:rgba(255,255,255,.4)}
+.hero-bar i{background:#F2AFC0}
+.hero-info>div{background:rgba(255,255,255,.22);color:#FFFFFF}
+.hero-info b,.hero .meta,.hero .sub{color:rgba(255,255,255,.92)}
+.hero-empty .dd{color:rgba(255,255,255,.5)}
+/* 하단 탭 */
+.nav{background:#FFFFFF;border:1px solid #D4EDEF;box-shadow:0 8px 24px rgba(95,158,162,.2)}
+.nav button{color:#5E7F82}
+.nav button.on{color:#5F9EA2;background:none;box-shadow:none}
+.nav button.on svg{stroke:#5F9EA2}
+/* 기타 */
+.brand .b1{color:#1D3A3C}.brand .b2{color:#5F9EA2}.eyebrow{color:#5E7F82}
+.toast{background:#FFFFFF;border:1.5px solid #5F9EA2;color:#1D3A3C}
+.sheet a:not(.btn),.sr a{color:#3F7C80;text-decoration-color:#8DBFC2}
+.inp{background-color:#FFFFFF;border:1px solid #BFE5E8;box-shadow:none}.inp:focus{border-color:#5F9EA2}
+.md-row input[type=date]{border:1px solid #BFE5E8;background:#FFFFFF}
+.ck,input[type=radio]{accent-color:#5F9EA2}
+.ov{background:rgba(29,58,60,.45)}
+.cf-msg{background:#5F9EA2;color:#FFFFFF}
+@keyframes hv-hot{0%,100%{box-shadow:0 0 0 0 rgba(242,175,192,.7)}60%{box-shadow:0 0 0 9px rgba(242,175,192,0)}}
+button:focus-visible,input:focus-visible,a:focus-visible{outline-color:#5F9EA2}
+
+/* 톤 다운: 눈부심 줄인 소프트 오프화이트 배경 */
+body,.app,.view,#v-home,#v-my,#v-list,.top,.sheet,.bar{background:#EEF2F1!important}
+.card,.box:not(.hero),.panel,.empty,.nav,.chip,.ftab,.mydate{background:#F7F9F8!important}
+.chip.on,.ftab.set{background:#8DBFC2!important}
+
+body,.app,.view,#v-home,#v-my,#v-list,.top,.sheet,.bar{background:#F6F9F8!important}
+.card,.box:not(.hero),.panel,.empty,.nav,.chip,.ftab{background:#FCFDFD!important}
+.card .dd,.rk,.hero-ap.hot{color:#FFFFFF!important}

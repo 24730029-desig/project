@@ -78,7 +78,7 @@ const cardH=(c,r)=>`<button class="card" data-act="open" data-id="${c.id}"><div 
 const badgesH=(c,fee)=>`<div class="meta">${c.field} › ${c.sub} · ${c.eligibility} · 난이도 ${dots(c.difficulty)}${fee||S.sort==='fee'?' · '+won(c.fee):''}</div>`;
 const empty=(t,s,btn)=>`<div class="empty"><p><b>${t}</b>${s}</p>${btn}</div>`;
 
-function heroH(s,c){
+function heroH(s,c,multi){
   const r=c.rounds.find(x=>x.roundId===tR(s))||nextR(c);
   if(!r)return `<button class="box hero" data-act="open" data-id="${c.id}"><div class="hero-top"><span class="sub">${c.name}</span></div><div class="dd">${dLabel(c)}</div></button>`;
   const a0=dd(r.applyStart),a1=dd(r.applyEnd),n=dd(r.examDate);
@@ -90,10 +90,10 @@ function heroH(s,c){
     <div class="hero-bar"><i style="width:${pct}%"></i></div>
     <div class="hero-info"><div><b>시험일</b>${r.examDate}</div><div><b>접수 기간</b>${md(r.applyStart)} ~ ${md(r.applyEnd)}</div></div>
     ${badgesH(c,true)}
-  </button><button class="add-goal" data-act="nav" data-v="list">＋ 비교할 목표 시험 더 추가하기</button>`}
+  </button>${multi?'':`<button class="add-goal" data-act="nav" data-v="list">＋ 비교할 목표 시험 더 추가하기</button>`}`}
 
 function renderHome(){
-  const TP=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).sort((a,b)=>dayOf(a.c)-dayOf(b.c)).slice(0,3),T=TP.map(x=>x.c);
+  const TP=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).sort((a,b)=>dayOf(a.c)-dayOf(b.c)),T=TP.map(x=>x.c);
   let h='';
   
   // 1. 내 목표 D-Day
@@ -102,7 +102,9 @@ function renderHome(){
   else if(S.status==='loading')h+=`<div class="skel"></div>`;
   else if(!T.length)h+=`<div class="box hero hero-empty"><div class="hero-top"><span class="t">나의 목표 D-Day</span><span class="hero-ap">미등록</span></div><div class="dd">D-?</div><div class="hero-bar"><i style="width:0"></i></div><p class="sub" style="margin:12px 0 14px;line-height:1.5">시험일을 등록하면 D-Day와 접수 일정이<br>여기에 한눈에 보여요</p><button class="btn pr" data-act="nav" data-v="list">D-Day 등록하기</button></div>`;
   else if(T.length===1)h+=heroH(TP[0].s,TP[0].c);
-  else h+=`<div class="d3">`+T.map(c=>`<button class="box" data-act="open" data-id="${c.id}"><div class="sub">${c.name}</div><div class="dd">${dLabel(c)}</div></button>`).join('')+`</div>`;
+  else{
+    const rest=TP.slice(1);
+    h+=heroH(TP[0].s,TP[0].c,true)+`<div class="next-goals"><div class="ng-h"><span class="t">다음 목표</span><span class="sub">${rest.length}건</span></div>`+rest.map(({s,c})=>{const r=c.rounds.find(x=>x.roundId===tR(s));return `<button class="ng-row" data-act="open" data-id="${c.id}"><span class="ng-n"><span class="t">${c.name}</span><span class="sub">시험일 ${r?r.examDate:'-'}</span></span><span class="my-dd${r?'':' sm'}">${r?D(dd(r.examDate)):dLabel(c)}</span></button>`}).join('')+`</div><button class="add-goal" data-act="nav" data-v="list">＋ 비교할 목표 시험 더 추가하기</button>`}
   h+=`</div>`;
 
   // 3 & 4. 임박 시험 및 인기 자격증 리스트
@@ -144,7 +146,7 @@ function renderMy(){const T=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).s
   const none=empty('아직 등록된 목표 시험이 없습니다','관심 있는 자격증을 찾아 시험일을 등록해 보세요',`<button class="btn" data-act="nav" data-v="list">자격증 탐색하러 가기</button>`);
   if(S.my==='dday'){
     if(!T.length)h+=none;else{h+=`<div class="row sp"><span class="sub">등록 ${T.length}건</span><button class="sub" data-act="resetAll" style="text-decoration:underline;min-height:34px">전체 초기화</button></div>`;
-      h+=T.map(({s,c})=>{const r=c.rounds.find(r=>r.roundId===tR(s));return `<div class="row sp my-row"><button class="my-name" data-act="open" data-id="${c.id}"><div class="t">${c.name}</div><div class="sub">시험일 ${r?r.examDate:'-'}</div></button><span class="my-dd">${r?D(dd(r.examDate)):dLabel(c)}</span><button class="xbtn" data-act="del" data-id="${c.id}" aria-label="${c.name} 삭제">×</button></div>`}).join('')}
+      h+=T.map(({s,c})=>{const r=c.rounds.find(r=>r.roundId===tR(s));return `<div class="row sp my-row"><button class="my-name" data-act="open" data-id="${c.id}"><div class="t">${c.name}</div><div class="sub">시험일 ${r?r.examDate:'-'}</div></button><span class="my-dd${r?'':' sm'}">${r?D(dd(r.examDate)):dLabel(c)}</span><button class="xbtn" data-act="del" data-id="${c.id}" aria-label="${c.name} 삭제">×</button></div>`}).join('')}
   }else{const st=getS(),ids=Object.keys(st).map(Number).filter(byId),dm=S.delMode&&ids.length>0,sel=S.delSel.filter(id=>ids.includes(id));
     if(!ids.length)h+=none;else{
       h+=dm?`<div class="row sp" style="margin:2px 0 4px"><label class="row" style="gap:8px;min-height:36px;cursor:pointer"><input type="checkbox" class="ck" data-act="selall" ${sel.length===ids.length?'checked':''}><span class="t" style="font-size:14px">전체 선택</span></label><button class="sub" data-act="delcancel" style="text-decoration:underline;min-height:34px">취소</button></div>`

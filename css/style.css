@@ -538,3 +538,12 @@ body,button,input,.dd,.hero .dd,.d3 .dd,.box .dd,.card .dd,.brand,.rk,.t{font-fa
 .my-name .t{display:block}
 .my-name .sub{display:block;margin-top:2px}
 .my-dd{flex:0 0 auto;font-size:22px;font-weight:800;letter-spacing:-.02em;color:var(--dk);margin:0 14px 0 8px;font-variant-numeric:lining-nums tabular-nums}
+
+/* 홈 · 목표가 2개 이상일 때: 가장 가까운 시험은 큰 카드, 나머지는 '다음 목표' 목록 */
+.next-goals{margin-top:12px}
+.ng-h{display:flex;align-items:baseline;gap:6px;padding:4px 0 4px;border-bottom:2px solid var(--deep)}
+.ng-h .t{font-size:14px;font-weight:800;color:var(--dk)}
+.ng-row{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;padding:11px 0;border-bottom:1px dashed var(--line);text-align:left;background:none}
+.ng-n{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+.ng-row .my-dd{margin:0 4px 0 8px}
+.my-dd.sm{font-size:13px;font-weight:700;letter-spacing:0}

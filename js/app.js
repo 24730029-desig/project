@@ -90,7 +90,7 @@ function heroH(s,c,multi){
     <div class="hero-bar"><i style="width:${pct}%"></i></div>
     <div class="hero-info"><div><b>시험일</b>${r.examDate}</div><div><b>접수 기간</b>${md(r.applyStart)} ~ ${md(r.applyEnd)}</div></div>
     ${badgesH(c,true)}
-  </button>${multi?'':`<button class="add-goal" data-act="nav" data-v="list">＋ 비교할 목표 시험 더 추가하기</button>`}`}
+  </button>`}
 
 function renderHome(){
   const TP=getT().map(s=>({s,c:byId(tId(s))})).filter(x=>x.c).sort((a,b)=>dayOf(a.c)-dayOf(b.c)),T=TP.map(x=>x.c);
@@ -104,7 +104,7 @@ function renderHome(){
   else if(T.length===1)h+=heroH(TP[0].s,TP[0].c);
   else{
     const rest=TP.slice(1);
-    h+=heroH(TP[0].s,TP[0].c,true)+`<div class="next-goals"><div class="ng-h"><span class="t">다음 목표</span><span class="sub">${rest.length}건</span></div>`+rest.map(({s,c})=>{const r=c.rounds.find(x=>x.roundId===tR(s));return `<button class="ng-row" data-act="open" data-id="${c.id}"><span class="ng-n"><span class="t">${c.name}</span><span class="sub">시험일 ${r?r.examDate:'-'}</span></span><span class="my-dd${r?'':' sm'}">${r?D(dd(r.examDate)):dLabel(c)}</span></button>`}).join('')+`</div><button class="add-goal" data-act="nav" data-v="list">＋ 비교할 목표 시험 더 추가하기</button>`}
+    h+=heroH(TP[0].s,TP[0].c,true)+`<div class="next-goals"><div class="ng-h"><span class="t">다음 목표</span><span class="sub">${rest.length}건</span></div>`+rest.map(({s,c})=>{const r=c.rounds.find(x=>x.roundId===tR(s));return `<button class="ng-row" data-act="open" data-id="${c.id}"><span class="ng-n"><span class="t">${c.name}</span><span class="sub">시험일 ${r?r.examDate:'-'}</span></span><span class="my-dd${r?'':' sm'}">${r?D(dd(r.examDate)):dLabel(c)}</span></button>`}).join('')+`</div>`}
   h+=`</div>`;
 
   // 3 & 4. 임박 시험 및 인기 자격증 리스트

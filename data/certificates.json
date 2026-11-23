@@ -68,7 +68,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 2,
@@ -138,7 +141,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 3,
@@ -201,7 +207,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 4,
@@ -271,7 +280,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 5,
@@ -341,7 +353,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 6,
@@ -411,7 +426,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 7,
@@ -469,7 +487,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 8,
@@ -527,7 +548,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 9,
@@ -597,7 +621,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 10,
@@ -667,7 +694,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 11,
@@ -737,7 +767,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 12,
@@ -807,7 +840,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 13,
@@ -877,7 +913,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 14,
@@ -947,7 +986,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 15,
@@ -1017,7 +1059,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 16,
@@ -1087,7 +1132,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 17,
@@ -1131,7 +1179,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관(ICQA) 일정 기준 2026년 2회 실기 시험일은 2026-11-29입니다. 접수 가능 여부를 공식 페이지에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 18,
@@ -1175,7 +1226,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관(ICQA) 일정 기준 2026년 4회 실기 시험일은 2026-12-06입니다. 접수 가능 여부를 공식 페이지에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 19,
@@ -1218,7 +1272,10 @@
     "scheduleSourceUrl": "https://ihd.or.kr/guidecert1.do",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 일정 기준 1급 2차 시험은 2026-11-14입니다. 접수 기간은 종료되었으므로 응시 가능 여부를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 일정 기준 1급 2차 시험은 2026-11-14입니다. 접수 기간은 종료되었으므로 응시 가능 여부를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (차기 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 20,
@@ -1261,7 +1318,10 @@
     "scheduleSourceUrl": "https://ihd.or.kr/guidecert1.do",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 일정 기준 2급 2차 시험은 2026-12-12입니다. 1차 온라인 시험과 차수가 다르므로 접수 세부사항을 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 일정 기준 2급 2차 시험은 2026-12-12입니다. 1차 온라인 시험과 차수가 다르므로 접수 세부사항을 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 21,
@@ -1307,7 +1367,10 @@
     "dDayDaysAtUpdate": -9,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (차기 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 22,
@@ -1360,7 +1423,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 23,
@@ -1422,7 +1488,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 24,
@@ -1485,7 +1554,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 25,
@@ -1549,7 +1621,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 26,
@@ -1599,7 +1674,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 27,
@@ -1649,7 +1727,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 28,
@@ -1699,7 +1780,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 29,
@@ -1749,7 +1833,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 30,
@@ -1791,7 +1878,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 31,
@@ -1833,7 +1923,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 32,
@@ -1875,7 +1968,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 33,
@@ -1945,7 +2041,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 34,
@@ -2008,7 +2107,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 35,
@@ -2071,7 +2173,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 36,
@@ -2140,7 +2245,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 37,
@@ -2185,7 +2293,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 38,
@@ -2230,7 +2341,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 39,
@@ -2275,7 +2389,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 40,
@@ -2338,7 +2455,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 41,
@@ -2394,7 +2514,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 42,
@@ -2450,7 +2573,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 43,
@@ -2506,7 +2632,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 44,
@@ -2562,7 +2691,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 45,
@@ -2618,7 +2750,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 46,
@@ -2674,7 +2809,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 47,
@@ -2808,7 +2946,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 48,
@@ -2942,7 +3083,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 49,
@@ -2985,7 +3129,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 50,
@@ -3028,7 +3175,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 51,
@@ -3102,7 +3252,10 @@
     "dDayDaysAtUpdate": -15,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (차기 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 52,
@@ -3143,7 +3296,10 @@
     "scheduleSourceUrl": "https://exam.toeic.co.kr/receipt/examSchList.php",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 53,
@@ -3184,7 +3340,10 @@
     "scheduleSourceUrl": "https://exam.toeic.co.kr/receipt/examSchList.php",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 54,
@@ -3220,7 +3379,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
     "scheduleNote": "상설 시험장 또는 CBT 상시시험으로 운영되는 종목입니다. 시험센터별 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 55,
@@ -3256,7 +3418,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
     "scheduleNote": "상설 시험장 또는 CBT 상시시험으로 운영되는 종목입니다. 시험센터별 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 56,
@@ -3297,7 +3462,10 @@
     "scheduleSourceUrl": "https://www.opic.or.kr/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 57,
@@ -3353,7 +3521,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관(한국지텔프) 정기시험 일정(595~597회)을 반영했습니다. 회차별 접수 마감일을 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 58,
@@ -3389,7 +3560,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 59,
@@ -3425,7 +3599,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 60,
@@ -3461,7 +3638,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 61,
@@ -3497,7 +3677,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 62,
@@ -3533,7 +3716,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 63,
@@ -3583,7 +3769,10 @@
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 64,
@@ -3633,7 +3822,10 @@
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 65,
@@ -3683,7 +3875,10 @@
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 66,
@@ -3733,7 +3928,10 @@
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 67,
@@ -3783,7 +3981,10 @@
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 68,
@@ -3819,7 +4020,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 69,
@@ -3854,7 +4058,10 @@
     "scheduleSourceUrl": "https://www.opic.or.kr/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 70,
@@ -3890,7 +4097,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
     "scheduleNote": "상설 시험장 또는 CBT 상시시험으로 운영되는 종목입니다. 시험센터별 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 71,
@@ -3933,7 +4143,10 @@
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 72,
@@ -3976,7 +4189,10 @@
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 73,
@@ -4019,7 +4235,10 @@
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 74,
@@ -4062,7 +4281,10 @@
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 75,
@@ -4105,7 +4327,10 @@
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 76,
@@ -4148,7 +4373,10 @@
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 77,
@@ -4191,7 +4419,10 @@
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 78,
@@ -4227,7 +4458,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 79,
@@ -4268,7 +4502,10 @@
     "scheduleSourceUrl": "https://www.opic.or.kr/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 80,
@@ -4304,7 +4541,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 81,
@@ -4340,7 +4580,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 82,
@@ -4376,7 +4619,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 83,
@@ -4412,7 +4658,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 84,
@@ -4448,7 +4697,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 85,
@@ -4484,7 +4736,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 86,
@@ -4520,7 +4775,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 87,
@@ -4555,7 +4813,10 @@
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 88,
@@ -4590,7 +4851,10 @@
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 89,
@@ -4625,7 +4889,10 @@
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 90,
@@ -4660,7 +4927,10 @@
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 91,
@@ -4695,7 +4965,10 @@
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 92,
@@ -4730,7 +5003,10 @@
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 93,
@@ -4766,7 +5042,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 94,
@@ -4802,7 +5081,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 95,
@@ -4838,7 +5120,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 96,
@@ -4874,7 +5159,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 97,
@@ -4910,7 +5198,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 98,
@@ -4946,7 +5237,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 99,
@@ -4982,7 +5276,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 100,
@@ -5018,7 +5315,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 101,
@@ -5068,7 +5368,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 102,
@@ -5118,7 +5421,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 103,
@@ -5168,7 +5474,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 104,
@@ -5212,7 +5521,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관(Q-Net) 2026년 3차 면접시험 일정(2026-11-27)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 105,
@@ -5262,7 +5574,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 106,
@@ -5312,7 +5627,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 107,
@@ -5348,7 +5666,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 108,
@@ -5391,7 +5712,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 109,
@@ -5440,7 +5764,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 110,
@@ -5490,7 +5817,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 111,
@@ -5540,7 +5870,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 112,
@@ -5590,7 +5923,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 113,
@@ -5640,7 +5976,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 114,
@@ -5683,7 +6022,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 115,
@@ -5718,7 +6060,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 116,
@@ -5773,7 +6118,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 117,
@@ -5828,7 +6176,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 118,
@@ -5883,7 +6234,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 119,
@@ -5932,7 +6286,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 120,
@@ -5968,7 +6325,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 121,
@@ -6004,7 +6364,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 122,
@@ -6053,7 +6416,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 123,
@@ -6097,7 +6463,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 124,
@@ -6141,7 +6510,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관(Q-Net) 2026년 제25회 면접시험 일정(2026-11-30)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 125,
@@ -6185,7 +6557,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관(Q-Net) 2026년 제25회 면접시험 일정(2026-11-30)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 126,
@@ -6229,7 +6604,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관(Q-Net) 2026년 제25회 면접시험 일정(2026-11-30)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 127,
@@ -6265,7 +6643,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 128,
@@ -6301,7 +6682,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 129,
@@ -6337,7 +6721,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 130,
@@ -6372,7 +6759,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 131,
@@ -6407,7 +6797,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 132,
@@ -6443,7 +6836,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 133,
@@ -6479,7 +6875,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 134,
@@ -6515,7 +6914,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 135,
@@ -6551,7 +6953,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 136,
@@ -6587,7 +6992,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 137,
@@ -6622,7 +7030,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 138,
@@ -6657,7 +7068,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 139,
@@ -6692,7 +7106,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "continuous",
     "scheduleNote": "별도 국가필기시험 없이 관련 학위 및 이수과목(현장실습 포함) 충족 후 상시 자격증 발급을 신청하는 자격입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 140,
@@ -6727,7 +7144,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "continuous",
     "scheduleNote": "별도 국가필기시험 없이 관련 학위 및 이수과목(현장실습 포함) 충족 후 상시 자격증 발급을 신청하는 자격입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 141,
@@ -6762,7 +7182,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "continuous",
     "scheduleNote": "별도 국가필기시험 없이 관련 학위 및 이수과목(현장실습 포함) 충족 후 상시 자격증 발급을 신청하는 자격입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 142,
@@ -6797,7 +7220,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "continuous",
     "scheduleNote": "별도 국가필기시험 없이 관련 학위 및 이수과목(현장실습 포함) 충족 후 상시 자격증 발급을 신청하는 자격입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 143,
@@ -6832,7 +7258,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "continuous",
     "scheduleNote": "별도 국가필기시험 없이 관련 학위 및 이수과목(현장실습 포함) 충족 후 상시 자격증 발급을 신청하는 자격입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 144,
@@ -6876,7 +7305,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다. (차기 제67회 시험일은 2027-01-29 예정)",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 145,
@@ -6925,7 +7357,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 146,
@@ -6969,7 +7404,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "국시원 2026년도 제54회 국가시험 일정(2026-11-28)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 147,
@@ -7013,7 +7451,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "국시원 2026년도 제54회 국가시험 일정(2026-12-05)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 148,
@@ -7057,7 +7498,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "국시원 2026년도 제54회 국가시험 일정(2026-12-13)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 149,
@@ -7101,7 +7545,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "국시원 2026년도 제54회 국가시험 일정(2026-12-19)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 150,
@@ -7145,7 +7592,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "국시원 2026년도 제54회 필기시험 일정(2026-12-13)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 151,
@@ -7194,7 +7644,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 152,
@@ -7235,7 +7688,10 @@
     "dDayCalculatedAt": "2026-11-02",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 제81회는 심화만 시행합니다. 기본 다음 회차 일정은 공식 공지를 확인해야 합니다."
+    "scheduleNote": "2026년 제81회는 심화만 시행합니다. 기본 다음 회차 일정은 공식 공지를 확인해야 합니다.",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "이번 회차 미시행 (차기 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 153,
@@ -7270,7 +7726,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
     "scheduleNote": "상설 시험장 또는 CBT 상시시험으로 운영되는 종목입니다. 시험센터별 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 154,
@@ -7313,7 +7772,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "KBS한국어진흥원 제94회 정기시험 일정(2026-12-20)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 155,
@@ -7348,7 +7810,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 156,
@@ -7382,7 +7847,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 157,
@@ -7416,7 +7884,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "continuous",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 158,
@@ -7450,7 +7921,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "continuous",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 159,
@@ -7499,7 +7973,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 160,
@@ -7548,7 +8025,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 161,
@@ -7597,7 +8077,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 162,
@@ -7631,7 +8114,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 163,
@@ -7665,7 +8151,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 164,
@@ -7699,7 +8188,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 165,
@@ -7733,7 +8225,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "continuous",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 166,
@@ -7767,7 +8262,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "continuous",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 167,
@@ -7801,7 +8299,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "continuous",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 168,
@@ -7835,7 +8336,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 169,
@@ -7869,7 +8373,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 170,
@@ -7903,7 +8410,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 171,
@@ -7952,7 +8462,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 172,
@@ -8001,7 +8514,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 173,
@@ -8043,7 +8559,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
     "scheduleNote": "상설 시험장 또는 CBT 상시시험으로 운영되는 종목입니다. 시험센터별 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 174,
@@ -8085,7 +8604,10 @@
     "scheduleSourceUrl": "https://exam.mk.co.kr/online_intro.php",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 175,
@@ -8127,7 +8649,10 @@
     "scheduleSourceUrl": "https://www.tesat.or.kr/app.frm.general.exam/schedule.regular",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 176,
@@ -8182,7 +8707,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 177,
@@ -8231,7 +8759,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 178,
@@ -8286,7 +8817,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 179,
@@ -8341,7 +8875,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 180,
@@ -8396,7 +8933,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 181,
@@ -8451,7 +8991,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 182,
@@ -8494,7 +9037,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "금융투자협회 제39회 정기시험 일정(2026-12-20)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 183,
@@ -8549,7 +9095,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 184,
@@ -8584,7 +9133,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 185,
@@ -8676,7 +9228,10 @@
       "자격증발급": 5000
     },
     "feeBasis": "응시료 70,000원 (자격증 발급 시 5,000원 별도, 총 75,000원)",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 186,
@@ -8768,7 +9323,10 @@
       "자격증발급": 5000
     },
     "feeBasis": "응시료 50,000원 (자격증 발급 시 5,000원 별도, 총 55,000원)",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 187,
@@ -8860,7 +9418,10 @@
       "자격증발급": 5000
     },
     "feeBasis": "응시료 30,000원 (자격증 발급 시 5,000원 별도, 총 35,000원)",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 188,
@@ -8933,7 +9494,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 189,
@@ -9006,7 +9570,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 190,
@@ -9079,7 +9646,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 191,
@@ -9152,7 +9722,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 192,
@@ -9225,7 +9798,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 193,
@@ -9298,7 +9874,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 194,
@@ -9371,7 +9950,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 195,
@@ -9456,7 +10038,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "한국공인회계사회 AT자격시험 2026년 88~95회 일정을 반영했습니다. 차기 95회 시험일은 2026-12-19입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 196,
@@ -9541,7 +10126,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "한국공인회계사회 AT자격시험 2026년 88~95회 일정을 반영했습니다. 차기 95회 시험일은 2026-12-19입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 197,
@@ -9626,7 +10214,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "한국공인회계사회 AT자격시험 2026년 88~95회 일정을 반영했습니다. 차기 95회 시험일은 2026-12-19입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 198,
@@ -9711,7 +10302,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "한국공인회계사회 AT자격시험 2026년 88~95회 일정을 반영했습니다. 차기 95회 시험일은 2026-12-19입니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 199,
@@ -9753,7 +10347,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 200,
@@ -9795,7 +10392,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 201,
@@ -9836,7 +10436,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 202,
@@ -9877,7 +10480,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 203,
@@ -9918,7 +10524,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 204,
@@ -9967,7 +10576,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 205,
@@ -10016,7 +10628,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 206,
@@ -10065,7 +10680,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 207,
@@ -10114,7 +10732,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 208,
@@ -10163,7 +10784,10 @@
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 209,
@@ -10218,7 +10842,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 210,
@@ -10273,7 +10900,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 211,
@@ -10328,7 +10958,10 @@
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled"
+    "scheduleType": "scheduled",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 212,
@@ -10376,7 +11009,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 213,
@@ -10424,7 +11060,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 214,
@@ -10472,7 +11111,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 215,
@@ -10520,7 +11162,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 216,
@@ -10568,7 +11213,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 217,
@@ -10616,7 +11264,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 218,
@@ -10664,7 +11315,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 219,
@@ -10712,7 +11366,10 @@
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 220,
@@ -10755,7 +11412,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 221,
@@ -10804,7 +11464,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 222,
@@ -10847,7 +11510,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 223,
@@ -10890,7 +11556,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 224,
@@ -10933,7 +11602,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 225,
@@ -10976,7 +11648,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 226,
@@ -11011,7 +11686,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 227,
@@ -11046,7 +11724,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 228,
@@ -11081,7 +11762,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "multiple_sessions",
     "scheduleNote": "연중 다회차(월간/격월 등) 정기 및 수시 시험으로 운영됩니다. 응시 희망 지역의 회차별 접수 일정을 공식 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "MULTIPLE_SESSIONS",
+    "displayScheduleStatus": "연중 다회차 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 229,
@@ -11142,7 +11826,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 230,
@@ -11203,7 +11890,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 231,
@@ -11264,7 +11954,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 232,
@@ -11325,7 +12018,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 233,
@@ -11386,7 +12082,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 234,
@@ -11447,7 +12146,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 235,
@@ -11508,7 +12210,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 236,
@@ -11569,7 +12274,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 237,
@@ -11612,7 +12320,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "한국정보평가협회 2026년 26-12회 정기시험 일정(2026-12-13)을 반영했습니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "UPCOMING_SCHEDULED",
+    "displayScheduleStatus": "일정 확정",
+    "hasEmptyRounds": false
   },
   {
     "id": 238,
@@ -11647,7 +12358,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 239,
@@ -11681,7 +12395,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 240,
@@ -11736,7 +12453,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 241,
@@ -11770,7 +12490,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
+    "displayScheduleCategory": "PERIODIC_SCHEDULED",
+    "displayScheduleStatus": "정기 개설월 운영 (공식 일정 확인)",
+    "hasEmptyRounds": true
   },
   {
     "id": 242,
@@ -11804,7 +12527,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "continuous",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
+    "displayScheduleCategory": "CONTINUOUS",
+    "displayScheduleStatus": "상시 접수·발급",
+    "hasEmptyRounds": true
   },
   {
     "id": 243,
@@ -11845,7 +12571,10 @@
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 244,
@@ -11907,7 +12636,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 245,
@@ -11976,7 +12708,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 246,
@@ -12045,7 +12780,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 247,
@@ -12107,7 +12845,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 248,
@@ -12169,7 +12910,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 249,
@@ -12204,7 +12948,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 250,
@@ -12239,7 +12986,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 251,
@@ -12301,7 +13051,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 252,
@@ -12370,7 +13123,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 253,
@@ -12405,7 +13161,10 @@
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02101&tabGb=sang",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 254,
@@ -12440,7 +13199,10 @@
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02101&tabGb=sang",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 255,
@@ -12502,7 +13264,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 256,
@@ -12564,7 +13329,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 257,
@@ -12626,7 +13394,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 258,
@@ -12688,7 +13459,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 259,
@@ -12750,7 +13524,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 260,
@@ -12812,7 +13589,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 261,
@@ -12874,7 +13654,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 262,
@@ -12943,7 +13726,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 263,
@@ -13012,7 +13798,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 264,
@@ -13074,7 +13863,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 265,
@@ -13143,7 +13935,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 266,
@@ -13212,7 +14007,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 267,
@@ -13274,7 +14072,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 268,
@@ -13336,7 +14137,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 269,
@@ -13405,7 +14209,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 270,
@@ -13467,7 +14274,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 271,
@@ -13529,7 +14339,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 272,
@@ -13598,7 +14411,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 273,
@@ -13660,7 +14476,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 274,
@@ -13729,7 +14548,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 275,
@@ -13798,7 +14620,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 276,
@@ -13867,7 +14692,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 277,
@@ -13936,7 +14764,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 278,
@@ -14005,7 +14836,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 279,
@@ -14074,7 +14908,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 280,
@@ -14136,7 +14973,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 281,
@@ -14198,7 +15038,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 282,
@@ -14260,7 +15103,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 283,
@@ -14297,7 +15143,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   },
   {
     "id": 284,
@@ -14366,7 +15215,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 285,
@@ -14435,7 +15287,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 286,
@@ -14504,7 +15359,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 287,
@@ -14573,7 +15431,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 288,
@@ -14635,7 +15496,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 기능사 필기 회차가 모두 종료되었습니다. 종목별 격회 시행 여부 및 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 289,
@@ -14704,7 +15568,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 290,
@@ -14773,7 +15640,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 291,
@@ -14842,7 +15712,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 292,
@@ -14911,7 +15784,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 293,
@@ -14980,7 +15856,10 @@
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": false
   },
   {
     "id": 294,
@@ -15015,7 +15894,10 @@
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 295,
@@ -15050,7 +15932,10 @@
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 296,
@@ -15085,7 +15970,10 @@
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 297,
@@ -15120,7 +16008,10 @@
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 298,
@@ -15155,7 +16046,10 @@
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 299,
@@ -15198,7 +16092,10 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
     "scheduleNote": "상설 시험장 또는 CBT 상시시험으로 운영되는 종목입니다. 시험센터별 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ALWAYS_OPEN",
+    "displayScheduleStatus": "상시 접수·응시",
+    "hasEmptyRounds": true
   },
   {
     "id": 300,
@@ -15234,6 +16131,9 @@
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정규 시험 회차가 종료되었습니다. 시행기관의 2027년 연간 일정 공고 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23"
+    "scheduleVerifiedAt": "2026-11-23",
+    "displayScheduleCategory": "ROUND_ENDED",
+    "displayScheduleStatus": "2026년 회차 종료 (2027년 일정 대기)",
+    "hasEmptyRounds": true
   }
 ]

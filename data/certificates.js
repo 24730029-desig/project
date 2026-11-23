@@ -1,4 +1,4 @@
-window.CERTIFICATES_DATA = [
+export const certificates = [
   {
     "id": 1,
     "name": "정보처리기사",
@@ -40,7 +40,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보처리기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보처리기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -68,8 +68,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 2,
@@ -112,7 +111,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보처리산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보처리산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -139,8 +138,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 3,
@@ -161,23 +159,22 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보처리기능사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보처리기능사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 4,
@@ -220,7 +217,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "전자계산기조직응용기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전자계산기조직응용기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -247,8 +244,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 5,
@@ -291,7 +287,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "전자계산기기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전자계산기기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -318,8 +314,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 6,
@@ -362,7 +357,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "전자계산기제어산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전자계산기제어산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -389,8 +384,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 7,
@@ -412,23 +406,22 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보보안기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보보안기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.kisq.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 8,
@@ -450,23 +443,22 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보보안산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보보안산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.kisq.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 9,
@@ -509,7 +501,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보통신기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보통신기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -536,8 +528,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 10,
@@ -580,7 +571,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보통신산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보통신산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -607,8 +598,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 11,
@@ -651,7 +641,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "무선설비기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "무선설비기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -678,8 +668,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 12,
@@ -722,7 +711,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "무선설비산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "무선설비산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -749,8 +738,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 13,
@@ -793,7 +781,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "방송통신기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "방송통신기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -820,8 +808,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 14,
@@ -864,7 +851,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "방송통신산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "방송통신산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -891,8 +878,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 15,
@@ -935,7 +921,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "전파전자통신기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전파전자통신기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -962,8 +948,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 16,
@@ -1006,7 +991,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "전파전자통신산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전파전자통신산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -1033,8 +1018,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 17,
@@ -1054,23 +1038,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "네트워크관리사 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "네트워크관리사 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.icqa.or.kr/cn",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 18,
@@ -1090,23 +1073,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "네트워크관리사 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "네트워크관리사 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.icqa.or.kr/cn",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 19,
@@ -1132,7 +1114,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "리눅스마스터 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "리눅스마스터 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-11-14"
@@ -1140,17 +1122,16 @@ window.CERTIFICATES_DATA = [
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "공식 일정 확인 완료"
     },
     "datasetReviewedAt": "2026-11-02",
-    "nextExamDate": null,
-    "dDayDaysAtUpdate": null,
+    "nextExamDate": "2026-11-14",
+    "dDayDaysAtUpdate": -9,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleSourceUrl": "https://ihd.or.kr/guidecert1.do",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "FeeType": "unverified"
+    "scheduleType": "scheduled",
+    "scheduleNote": "공식 일정 기준 1급 2차 시험은 2026-11-14입니다. 접수 기간은 종료되었으므로 응시 가능 여부를 공식 페이지에서 확인하세요."
   },
   {
     "id": 20,
@@ -1176,7 +1157,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "리눅스마스터 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "리눅스마스터 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -1193,8 +1174,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://ihd.or.kr/guidecert1.do",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 일정 기준 2급 2차 시험은 2026-12-12입니다. 1차 온라인 시험과 차수가 다르므로 접수 세부사항을 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 일정 기준 2급 2차 시험은 2026-12-12입니다. 1차 온라인 시험과 차수가 다르므로 접수 세부사항을 공식 페이지에서 확인하세요."
   },
   {
     "id": 21,
@@ -1220,7 +1200,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "디지털 역량"
     ],
-    "overview": "SQL 개발자(SQLD)는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "SQL 개발자(SQLD)은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-11-14"
@@ -1229,19 +1209,18 @@ window.CERTIFICATES_DATA = [
     "feeVerifiedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.dataq.or.kr/",
     "scheduleVerifiedAt": "2026-11-02",
-    "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
     "dataSource": "J",
     "researchStatus": {
       "fee": "공식 출처 확인 완료",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "공식 일정 확인 완료"
     },
     "datasetReviewedAt": "2026-11-02",
-    "nextExamDate": null,
-    "dDayDaysAtUpdate": null,
+    "nextExamDate": "2026-11-14",
+    "dDayDaysAtUpdate": -9,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "not_in_next_round",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 22,
@@ -1273,7 +1252,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "디지털 역량"
     ],
-    "overview": "SQL 전문가(SQLP)는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "SQL 전문가(SQLP)은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-03-07",
@@ -1294,8 +1273,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "single"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 23,
@@ -1336,7 +1314,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "데이터분석 준전문가(ADsP)는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "데이터분석 준전문가(ADsP)은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-07",
@@ -1357,8 +1335,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 24,
@@ -1400,7 +1377,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "디지털 역량"
     ],
-    "overview": "데이터분석 전문가(ADP)는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "데이터분석 전문가(ADP)은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-07",
@@ -1421,8 +1398,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 25,
@@ -1465,7 +1441,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "빅데이터분석기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "빅데이터분석기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-04-04",
@@ -1486,8 +1462,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 26,
@@ -1513,7 +1488,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "디지털 역량"
     ],
-    "overview": "정보기술자격(ITQ) 한글엑셀은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보기술자격(ITQ) 한글엑셀은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -1537,8 +1512,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 27,
@@ -1564,7 +1538,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "디지털 역량"
     ],
-    "overview": "정보기술자격(ITQ) 한글파워포인트는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보기술자격(ITQ) 한글파워포인트은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -1588,8 +1562,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 28,
@@ -1615,7 +1588,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "디지털 역량"
     ],
-    "overview": "정보기술자격(ITQ) 아래한글은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보기술자격(ITQ) 아래한글은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -1639,8 +1612,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 29,
@@ -1666,7 +1638,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "디지털 역량"
     ],
-    "overview": "정보기술자격(ITQ) 한글액세스는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보기술자격(ITQ) 한글액세스은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -1690,8 +1662,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 30,
@@ -1711,7 +1682,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "컴퓨터활용능력 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "컴퓨터활용능력 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -1733,8 +1704,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 31,
@@ -1754,7 +1724,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "컴퓨터활용능력 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "컴퓨터활용능력 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -1776,8 +1746,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 32,
@@ -1797,7 +1766,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "디지털 역량"
     ],
-    "overview": "워드프로세서는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "워드프로세서은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -1819,8 +1788,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 33,
@@ -1863,7 +1831,7 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "사무자동화산업기사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "사무자동화산업기사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -1890,8 +1858,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 34,
@@ -1912,23 +1879,22 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "전자계산기기능사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전자계산기기능사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 35,
@@ -1949,23 +1915,22 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "웹디자인개발기능사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "웹디자인개발기능사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 36,
@@ -2007,7 +1972,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "디지털 역량"
     ],
-    "overview": "멀티미디어콘텐츠제작전문가는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "멀티미디어콘텐츠제작전문가은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -2034,8 +1999,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 37,
@@ -2056,23 +2020,22 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "디지털 역량"
     ],
-    "overview": "게임그래픽전문가는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "게임그래픽전문가은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 38,
@@ -2093,23 +2056,22 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "디지털 역량"
     ],
-    "overview": "게임기획전문가는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "게임기획전문가은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 39,
@@ -2130,23 +2092,22 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "디지털 역량"
     ],
-    "overview": "게임프로그래밍전문가는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "게임프로그래밍전문가은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 40,
@@ -2167,23 +2128,22 @@ window.CERTIFICATES_DATA = [
       "국가기술자격",
       "디지털 역량"
     ],
-    "overview": "정보기기운용기능사는 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정보기기운용기능사은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 41,
@@ -2214,7 +2174,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "GTQ 포토샵 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQ 포토샵 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -2239,8 +2199,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 42,
@@ -2271,7 +2230,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "GTQ 포토샵 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQ 포토샵 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -2296,8 +2255,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 43,
@@ -2328,7 +2286,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "GTQi 일러스트 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQi 일러스트 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -2353,8 +2311,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 44,
@@ -2385,7 +2342,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "GTQi 일러스트 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQi 일러스트 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -2410,8 +2367,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 45,
@@ -2442,7 +2398,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "GTQid 인디자인 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQid 인디자인 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -2467,8 +2423,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 46,
@@ -2499,7 +2454,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "GTQid 인디자인 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQid 인디자인 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -2524,8 +2479,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 47,
@@ -2621,7 +2575,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "CAD실무능력평가 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "CAD실무능력평가 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-09-12",
@@ -2659,8 +2613,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "single"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 48,
@@ -2756,7 +2709,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "CAD실무능력평가 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "CAD실무능력평가 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-09-12",
@@ -2794,8 +2747,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "single"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 49,
@@ -2821,7 +2773,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "디지털 역량"
     ],
-    "overview": "SW코딩자격 1급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "SW코딩자격 1급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -2838,8 +2790,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 50,
@@ -2865,7 +2816,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "디지털 역량"
     ],
-    "overview": "SW코딩자격 2급은 IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "SW코딩자격 2급은(는) IT/컴퓨터 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -2882,8 +2833,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 51,
@@ -2929,8 +2879,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TOEIC는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://exam.toeic.co.kr/receipt/examSchList.php",
+    "overview": "TOEIC은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.toeic.co.kr/",
     "examDates": [
       "2026-11-08",
       "2026-11-15",
@@ -2953,12 +2903,11 @@ window.CERTIFICATES_DATA = [
       "schedule": "공식 일정 확인 완료"
     },
     "datasetReviewedAt": "2026-11-02",
-    "nextExamDate": "2026-11-29",
-    "dDayDaysAtUpdate": 6,
+    "nextExamDate": "2026-11-08",
+    "dDayDaysAtUpdate": -15,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 52,
@@ -2978,8 +2927,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TOEIC Speaking는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://exam.toeic.co.kr/receipt/examSchList.php",
+    "overview": "TOEIC Speaking은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.toeic.co.kr/",
     "examDates": [],
     "feeDetails": {
       "정기시험": 84000
@@ -2999,8 +2948,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://exam.toeic.co.kr/receipt/examSchList.php",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 53,
@@ -3020,8 +2968,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TOEIC Writing는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://exam.toeic.co.kr/receipt/examSchList.php",
+    "overview": "TOEIC Writing은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.toeic.co.kr/",
     "examDates": [],
     "feeDetails": {
       "정기시험": 84000
@@ -3041,8 +2989,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://exam.toeic.co.kr/receipt/examSchList.php",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 54,
@@ -3062,23 +3009,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TOEFL iBT는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.ets.org/toefl.html",
+    "overview": "TOEFL iBT은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.ets.org/toefl.html",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 55,
@@ -3098,23 +3044,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "IELTS Academic는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://ielts.org/",
+    "overview": "IELTS Academic은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.ielts.org/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 56,
@@ -3134,8 +3079,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "OPIc 영어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.opic.or.kr/opics/servlet/controller.opic.site.about.AboutServlet?p_process=move-introduce-opic",
+    "overview": "OPIc 영어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.opic.or.kr/",
     "examDates": [],
     "feeDetails": {
       "정기시험": 84000
@@ -3155,8 +3100,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.opic.or.kr/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 57,
@@ -3176,23 +3120,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "G-TELP Level 2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.g-telp.co.kr/",
+    "overview": "G-TELP Level 2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.g-telp.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 58,
@@ -3202,7 +3145,7 @@ window.CERTIFICATES_DATA = [
     "eligibilityText": "일반적으로 별도의 학력·경력 응시자격 제한은 없습니다. 시험별 접수 가능일, 응시료 및 신분증 규정은 해당 시험의 공식 시행기관 안내를 확인하세요.",
     "difficulty": 1,
     "fee": null,
-    "officialUrl": "https://flex.hufs.ac.kr/",
+    "officialUrl": "https://www.kets.or.kr/",
     "rounds": [],
     "sourceId": "CERT058",
     "level": "초급",
@@ -3212,23 +3155,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "FLEX 영어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://flex.hufs.ac.kr/",
+    "overview": "FLEX 영어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://flex.hufs.ac.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 59,
@@ -3248,23 +3190,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TEPS는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.teps.or.kr/",
+    "overview": "TEPS은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.teps.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 60,
@@ -3284,23 +3225,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "ESPT 영어회화는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ESPT 영어회화은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.espt.org/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 61,
@@ -3320,23 +3260,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "PELT 영어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "PELT 영어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.pelt.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 62,
@@ -3356,23 +3295,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "JPT 일본어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.jpt.co.kr/",
+    "overview": "JPT 일본어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.jpt.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 63,
@@ -3398,8 +3336,8 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "JLPT N1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.jlpt.or.kr/html/index.html",
+    "overview": "JLPT N1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.jlpt.or.kr/",
     "examDates": [
       "2026-12-06"
     ],
@@ -3422,8 +3360,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 64,
@@ -3449,8 +3386,8 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "JLPT N2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.jlpt.or.kr/html/index.html",
+    "overview": "JLPT N2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.jlpt.or.kr/",
     "examDates": [
       "2026-12-06"
     ],
@@ -3473,8 +3410,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 65,
@@ -3500,8 +3436,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "JLPT N3은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.jlpt.or.kr/html/index.html",
+    "overview": "JLPT N3은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.jlpt.or.kr/",
     "examDates": [
       "2026-12-06"
     ],
@@ -3524,8 +3460,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 66,
@@ -3551,8 +3486,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "JLPT N4는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.jlpt.or.kr/html/index.html",
+    "overview": "JLPT N4은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.jlpt.or.kr/",
     "examDates": [
       "2026-12-06"
     ],
@@ -3575,8 +3510,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 67,
@@ -3602,8 +3536,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "JLPT N5는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.jlpt.or.kr/html/index.html",
+    "overview": "JLPT N5은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.jlpt.or.kr/",
     "examDates": [
       "2026-12-06"
     ],
@@ -3626,8 +3560,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 13,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 68,
@@ -3637,7 +3570,7 @@ window.CERTIFICATES_DATA = [
     "eligibilityText": "일반적으로 별도의 학력·경력 응시자격 제한은 없습니다. 시험별 접수 가능일, 응시료 및 신분증 규정은 해당 시험의 공식 시행기관 안내를 확인하세요.",
     "difficulty": 1,
     "fee": null,
-    "officialUrl": "https://flex.hufs.ac.kr/",
+    "officialUrl": "https://www.kets.or.kr/",
     "rounds": [],
     "sourceId": "CERT068",
     "level": "초급",
@@ -3647,23 +3580,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "FLEX 일본어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://flex.hufs.ac.kr/",
+    "overview": "FLEX 일본어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://flex.hufs.ac.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 69,
@@ -3683,7 +3615,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "SJPT 일본어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "SJPT 일본어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -3698,8 +3630,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.opic.or.kr/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 70,
@@ -3719,23 +3650,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "BJT 비즈니스 일본어능력테스트는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "BJT 비즈니스 일본어능력테스트은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.kanken.or.jp/bjt/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 71,
@@ -3761,7 +3691,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "HSK 6급은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "HSK 6급은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.hsk.or.kr/",
     "examDates": [
       "2026-12-13"
@@ -3778,8 +3708,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
   },
   {
     "id": 72,
@@ -3805,7 +3734,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "HSK 5급은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "HSK 5급은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.hsk.or.kr/",
     "examDates": [
       "2026-12-13"
@@ -3822,8 +3751,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
   },
   {
     "id": 73,
@@ -3849,7 +3777,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "HSK 4급은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "HSK 4급은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.hsk.or.kr/",
     "examDates": [
       "2026-12-13"
@@ -3866,8 +3794,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
   },
   {
     "id": 74,
@@ -3893,7 +3820,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "HSK 3급은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "HSK 3급은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.hsk.or.kr/",
     "examDates": [
       "2026-12-13"
@@ -3910,8 +3837,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
   },
   {
     "id": 75,
@@ -3937,7 +3863,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "新HSK 회화 고급은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "新HSK 회화 고급은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.hsk.or.kr/",
     "examDates": [
       "2026-12-13"
@@ -3954,8 +3880,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
   },
   {
     "id": 76,
@@ -3981,7 +3906,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "新HSK 회화 중급은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "新HSK 회화 중급은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.hsk.or.kr/",
     "examDates": [
       "2026-12-13"
@@ -3998,8 +3923,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
   },
   {
     "id": 77,
@@ -4025,7 +3949,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "新HSK 회화 초급은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "新HSK 회화 초급은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.hsk.or.kr/",
     "examDates": [
       "2026-12-13"
@@ -4042,8 +3966,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=50278976",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 2026 일정표에 2026-12-13 시험이 안내되어 있습니다. 지필·컴퓨터 시험 및 회화 시험은 접수 마감일이 다를 수 있으므로 본인 시험 형태를 공식 페이지에서 확인하세요."
   },
   {
     "id": 78,
@@ -4063,23 +3986,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TSC 중국어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "TSC 중국어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.ybmtsc.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 79,
@@ -4099,8 +4021,8 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "OPIc 중국어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.opic.or.kr/opics/servlet/controller.opic.site.about.AboutServlet?p_process=move-introduce-opic",
+    "overview": "OPIc 중국어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.opic.or.kr/",
     "examDates": [],
     "feeDetails": {
       "정기시험": 84000
@@ -4120,8 +4042,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.opic.or.kr/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 80,
@@ -4131,7 +4052,7 @@ window.CERTIFICATES_DATA = [
     "eligibilityText": "일반적으로 별도의 학력·경력 응시자격 제한은 없습니다. 시험별 접수 가능일, 응시료 및 신분증 규정은 해당 시험의 공식 시행기관 안내를 확인하세요.",
     "difficulty": 1,
     "fee": null,
-    "officialUrl": "https://flex.hufs.ac.kr/",
+    "officialUrl": "https://www.kets.or.kr/",
     "rounds": [],
     "sourceId": "CERT080",
     "level": "초급",
@@ -4141,23 +4062,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "FLEX 중국어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://flex.hufs.ac.kr/",
+    "overview": "FLEX 중국어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.chinesetest.cn/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 81,
@@ -4177,23 +4097,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "DELF A1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "DELF A1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.afcoree.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 82,
@@ -4213,23 +4132,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "DELF A2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "DELF A2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.afcoree.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 83,
@@ -4249,23 +4167,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "DELF B1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "DELF B1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.afcoree.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 84,
@@ -4285,23 +4202,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "DELF B2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "DELF B2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.afcoree.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 85,
@@ -4321,23 +4237,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "DALF C1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "DALF C1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.afcoree.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 86,
@@ -4357,23 +4272,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "DALF C2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "DALF C2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.afcoree.co.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 87,
@@ -4393,7 +4307,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "독일어 Goethe-Zertifikat A1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "독일어 Goethe-Zertifikat A1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -4408,8 +4322,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
   },
   {
     "id": 88,
@@ -4429,7 +4342,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "독일어 Goethe-Zertifikat A2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "독일어 Goethe-Zertifikat A2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -4444,8 +4357,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
   },
   {
     "id": 89,
@@ -4465,7 +4377,7 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "독일어 Goethe-Zertifikat B1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "독일어 Goethe-Zertifikat B1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -4480,8 +4392,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
   },
   {
     "id": 90,
@@ -4501,7 +4412,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "독일어 Goethe-Zertifikat B2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "독일어 Goethe-Zertifikat B2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -4516,8 +4427,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
   },
   {
     "id": 91,
@@ -4537,7 +4447,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "독일어 Goethe-Zertifikat C1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "독일어 Goethe-Zertifikat C1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -4552,8 +4462,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
   },
   {
     "id": 92,
@@ -4573,7 +4482,7 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "독일어 Goethe-Zertifikat C2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "독일어 Goethe-Zertifikat C2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -4588,8 +4497,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.goethe.de/ins/kr/ko/spr/prf/tui.html",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "시험일은 등급과 지역에 따라 다릅니다. 공식 연간 일정표에서 지역별 날짜를 확인하세요."
   },
   {
     "id": 93,
@@ -4609,23 +4517,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TestDaF는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "TestDaF은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.testdaf.de/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 94,
@@ -4645,23 +4552,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "TORFL 러시아어는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "TORFL 러시아어은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.torfl.ru/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 95,
@@ -4681,23 +4587,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "스페인어 DELE A1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "스페인어 DELE A1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://seul.cervantes.es/ko/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 96,
@@ -4717,23 +4622,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "어학성적"
     ],
-    "overview": "스페인어 DELE A2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "스페인어 DELE A2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://seul.cervantes.es/ko/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 97,
@@ -4753,23 +4657,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "어학성적"
     ],
-    "overview": "스페인어 DELE B1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "스페인어 DELE B1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://seul.cervantes.es/ko/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 98,
@@ -4789,23 +4692,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "스페인어 DELE B2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "스페인어 DELE B2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://seul.cervantes.es/ko/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 99,
@@ -4825,23 +4727,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "스페인어 DELE C1은 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "스페인어 DELE C1은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://seul.cervantes.es/ko/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 100,
@@ -4861,23 +4762,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "어학성적"
     ],
-    "overview": "스페인어 DELE C2는 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "스페인어 DELE C2은(는) 어학 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kets.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "연중 시험일 운영(지역·등급별 확인)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://seul.cervantes.es/ko/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "multiple_sessions",
-    "scheduleNote": "시험일은 등급과 시행 지역(센터)에 따라 다릅니다. 공식 연간 일정표에서 회차별 날짜를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 101,
@@ -4897,23 +4797,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "공인회계사(CPA)는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://cpa.fss.or.kr/",
+    "overview": "공인회계사(CPA)은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://cpa.fss.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 102,
@@ -4933,23 +4832,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "세무사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "세무사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 103,
@@ -4969,23 +4867,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "변리사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "변리사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 104,
@@ -5005,23 +4902,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "공인노무사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "공인노무사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 105,
@@ -5041,23 +4937,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "감정평가사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "감정평가사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 106,
@@ -5077,23 +4972,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "관세사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "관세사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 107,
@@ -5113,23 +5007,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "법무사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "법무사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 108,
@@ -5148,23 +5041,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "초급"
     ],
-    "overview": "공인중개사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "공인중개사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 109,
@@ -5183,23 +5075,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "주택관리사보는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "주택관리사보은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 110,
@@ -5219,23 +5110,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "경영지도사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "경영지도사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 111,
@@ -5255,23 +5145,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "기술지도사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "기술지도사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 112,
@@ -5291,23 +5180,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "손해사정사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "손해사정사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 113,
@@ -5327,23 +5215,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "보험계리사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "보험계리사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 114,
@@ -5362,23 +5249,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "초급"
     ],
-    "overview": "보험중개사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "보험중개사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 115,
@@ -5397,23 +5283,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "물류관리사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "물류관리사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 116,
@@ -5448,7 +5333,7 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "고급"
     ],
-    "overview": "유통관리사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "유통관리사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-05-09",
@@ -5468,8 +5353,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 117,
@@ -5504,7 +5388,7 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "유통관리사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "유통관리사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-05-09",
@@ -5524,8 +5408,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 118,
@@ -5560,7 +5443,7 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "유통관리사 3급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "유통관리사 3급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-05-09",
@@ -5580,8 +5463,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 119,
@@ -5600,23 +5482,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "초급"
     ],
-    "overview": "가맹거래사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "가맹거래사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 120,
@@ -5636,23 +5517,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "산업안전지도사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "산업안전지도사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 121,
@@ -5672,23 +5552,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "산업보건지도사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "산업보건지도사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 122,
@@ -5707,23 +5586,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "초급"
     ],
-    "overview": "행정사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "행정사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 123,
@@ -5743,23 +5621,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "사회복지사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "사회복지사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 124,
@@ -5779,23 +5656,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "청소년상담사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "청소년상담사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 125,
@@ -5815,23 +5691,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "청소년상담사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "청소년상담사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 126,
@@ -5851,23 +5726,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "청소년상담사 3급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "청소년상담사 3급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 127,
@@ -5887,23 +5761,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "청소년지도사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "청소년지도사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 128,
@@ -5923,23 +5796,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "청소년지도사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "청소년지도사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 129,
@@ -5959,23 +5831,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "청소년지도사 3급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "청소년지도사 3급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 130,
@@ -5994,23 +5865,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "고급"
     ],
-    "overview": "직업상담사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "직업상담사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 131,
@@ -6029,23 +5899,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "직업상담사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "직업상담사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 132,
@@ -6065,23 +5934,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "임상심리사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "임상심리사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 133,
@@ -6101,23 +5969,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "임상심리사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "임상심리사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 134,
@@ -6137,23 +6004,22 @@ window.CERTIFICATES_DATA = [
       "고급",
       "응시자격 확인 필요"
     ],
-    "overview": "정신건강임상심리사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정신건강임상심리사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 135,
@@ -6173,23 +6039,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "정신건강임상심리사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "정신건강임상심리사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 136,
@@ -6209,23 +6074,22 @@ window.CERTIFICATES_DATA = [
       "중급",
       "응시자격 확인 필요"
     ],
-    "overview": "임상심리전문가는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "임상심리전문가은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 137,
@@ -6244,23 +6108,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "고급"
     ],
-    "overview": "상담심리사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "상담심리사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 138,
@@ -6279,23 +6142,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "상담심리사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "상담심리사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 139,
@@ -6314,23 +6176,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "고급"
     ],
-    "overview": "평생교육사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "평생교육사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 140,
@@ -6349,23 +6210,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "평생교육사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "평생교육사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 141,
@@ -6384,23 +6244,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "평생교육사 3급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "평생교육사 3급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 142,
@@ -6419,23 +6278,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "고급"
     ],
-    "overview": "보육교사 1급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "보육교사 1급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 143,
@@ -6454,23 +6312,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "중급"
     ],
-    "overview": "보육교사 2급은 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "보육교사 2급은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 144,
@@ -6490,23 +6347,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "간호사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.kuksiwon.or.kr/",
+    "overview": "간호사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://www.kuksiwon.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.kuksi.or.kr/",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 145,
@@ -6525,23 +6381,22 @@ window.CERTIFICATES_DATA = [
       "전문직",
       "초급"
     ],
-    "overview": "간호조무사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.kuksiwon.or.kr/",
+    "overview": "간호조무사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://www.kuksiwon.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.kuksi.or.kr/",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 146,
@@ -6561,23 +6416,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "물리치료사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.kuksiwon.or.kr/",
+    "overview": "물리치료사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://www.kuksiwon.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.kuksi.or.kr/",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 147,
@@ -6597,23 +6451,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "작업치료사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.kuksiwon.or.kr/",
+    "overview": "작업치료사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://www.kuksiwon.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.kuksi.or.kr/",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 148,
@@ -6633,23 +6486,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "임상병리사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.kuksiwon.or.kr/",
+    "overview": "임상병리사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://www.kuksiwon.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.kuksi.or.kr/",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 149,
@@ -6669,23 +6521,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "방사선사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.kuksiwon.or.kr/",
+    "overview": "방사선사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://www.kuksiwon.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.kuksi.or.kr/",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 150,
@@ -6705,23 +6556,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "응시자격 확인 필요"
     ],
-    "overview": "치과위생사는 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.kuksiwon.or.kr/",
+    "overview": "치과위생사은(는) 전문직 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
-    "scheduleSourceUrl": "https://www.kuksiwon.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "dDayCalculatedAt": "2026-11-02",
+    "scheduleSourceUrl": "https://www.kuksi.or.kr/",
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 151,
@@ -6746,8 +6596,8 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "한국사능력검정시험 심화는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.historyexam.go.kr/pageLink.do?link=examSchedule",
+    "overview": "한국사능력검정시험 심화은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.historyexam.go.kr/",
     "examDates": [
       "2026-11-28"
     ],
@@ -6770,8 +6620,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 152,
@@ -6790,8 +6639,8 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "한국사능력검정시험 기본은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
-    "url": "https://www.historyexam.go.kr/pageLink.do?link=examSchedule",
+    "overview": "한국사능력검정시험 기본은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "url": "https://www.historyexam.go.kr/",
     "examDates": [],
     "feeSourceUrl": "https://www.historyexam.go.kr/pageLink.do?link=apyexmInfo",
     "feeVerifiedAt": "2026-11-02",
@@ -6812,8 +6661,7 @@ window.CERTIFICATES_DATA = [
     "dDayCalculatedAt": "2026-11-02",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 제81회는 심화만 시행합니다. 기본 다음 회차 일정은 공식 공지를 확인해야 합니다.",
-    "FeeType": "single"
+    "scheduleNote": "2026년 제81회는 심화만 시행합니다. 기본 다음 회차 일정은 공식 공지를 확인해야 합니다."
   },
   {
     "id": 153,
@@ -6832,23 +6680,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "국어능력인증시험(ToKL)은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "국어능력인증시험(ToKL)은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.klt.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.tokl.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 154,
@@ -6867,23 +6714,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "KBS한국어능력시험은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "KBS한국어능력시험은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.klt.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.kbskorean.org/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 155,
@@ -6902,23 +6748,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "한국실용글쓰기검정은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한국실용글쓰기검정은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.klt.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/co/examguide03.do?cd=0401&mm=53",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 156,
@@ -6937,7 +6782,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "전산회계운용사 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전산회계운용사 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -6952,8 +6797,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 157,
@@ -6972,13 +6816,13 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "전산회계운용사 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전산회계운용사 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시 시행(개별 조회)"
+      "schedule": "상시"
     },
     "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
@@ -6986,9 +6830,8 @@ window.CERTIFICATES_DATA = [
     "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "always_open",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
-    "FeeType": "unverified"
+    "scheduleType": "continuous",
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
   },
   {
     "id": 158,
@@ -7007,13 +6850,13 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "전산회계운용사 3급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전산회계운용사 3급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시 시행(개별 조회)"
+      "schedule": "상시"
     },
     "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
@@ -7021,9 +6864,8 @@ window.CERTIFICATES_DATA = [
     "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "always_open",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
-    "FeeType": "unverified"
+    "scheduleType": "continuous",
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
   },
   {
     "id": 159,
@@ -7053,7 +6895,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "한글속기 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한글속기 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [
       "2026-03-28",
@@ -7072,8 +6914,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 160,
@@ -7103,7 +6944,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "한글속기 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한글속기 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [
       "2026-03-28",
@@ -7122,8 +6963,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 161,
@@ -7153,7 +6993,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "한글속기 3급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한글속기 3급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [
       "2026-03-28",
@@ -7172,8 +7012,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 162,
@@ -7192,7 +7031,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "비서 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "비서 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -7207,8 +7046,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 163,
@@ -7227,7 +7065,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "비서 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "비서 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -7242,8 +7080,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 164,
@@ -7262,7 +7099,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "비서 3급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "비서 3급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -7277,8 +7114,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 165,
@@ -7297,13 +7133,13 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "상공회의소 한자 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "상공회의소 한자 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시 시행(개별 조회)"
+      "schedule": "상시"
     },
     "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
@@ -7311,9 +7147,8 @@ window.CERTIFICATES_DATA = [
     "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "always_open",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
-    "FeeType": "unverified"
+    "scheduleType": "continuous",
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
   },
   {
     "id": 166,
@@ -7332,13 +7167,13 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "상공회의소 한자 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "상공회의소 한자 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시 시행(개별 조회)"
+      "schedule": "상시"
     },
     "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
@@ -7346,9 +7181,8 @@ window.CERTIFICATES_DATA = [
     "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "always_open",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
-    "FeeType": "unverified"
+    "scheduleType": "continuous",
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
   },
   {
     "id": 167,
@@ -7367,13 +7201,13 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "상공회의소 한자 3급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "상공회의소 한자 3급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시 시행(개별 조회)"
+      "schedule": "상시"
     },
     "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
@@ -7381,9 +7215,8 @@ window.CERTIFICATES_DATA = [
     "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "always_open",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
-    "FeeType": "unverified"
+    "scheduleType": "continuous",
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
   },
   {
     "id": 168,
@@ -7402,7 +7235,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "무역영어 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "무역영어 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -7417,8 +7250,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 169,
@@ -7437,7 +7269,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "무역영어 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "무역영어 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -7452,8 +7284,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 170,
@@ -7472,7 +7303,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "무역영어 3급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "무역영어 3급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -7487,8 +7318,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 171,
@@ -7518,7 +7348,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "전자상거래관리사 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전자상거래관리사 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [
       "2026-06-13",
@@ -7537,8 +7367,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 172,
@@ -7568,7 +7397,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "전자상거래관리사 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전자상거래관리사 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [
       "2026-06-13",
@@ -7587,8 +7416,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 173,
@@ -7607,7 +7435,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "경영정보시각화능력은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "경영정보시각화능력은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "feeSourceUrl": "https://license.korcham.net/co/examguide.do?cd=0108",
@@ -7620,17 +7448,16 @@ window.CERTIFICATES_DATA = [
     "dataSource": "J",
     "researchStatus": {
       "fee": "공식 출처 확인 완료",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/co/examguide03.do?cd=0401&mm=53",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 174,
@@ -7655,7 +7482,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "매경TEST는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "매경TEST은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.mk.co.kr/",
     "examDates": [
       "2026-12-05"
@@ -7672,8 +7499,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://exam.mk.co.kr/online_intro.php",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 175,
@@ -7698,7 +7524,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "한경TESAT는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한경TESAT은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.tesat.or.kr/",
     "examDates": [
       "2026-12-19"
@@ -7715,8 +7541,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.tesat.or.kr/app.frm.general.exam/schedule.regular",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 176,
@@ -7735,23 +7560,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "신용분석사는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "신용분석사은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 177,
@@ -7770,23 +7594,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "여신심사역은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "여신심사역은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 178,
@@ -7805,23 +7628,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "외환전문역 Ⅰ종은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "외환전문역 Ⅰ종은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 179,
@@ -7840,23 +7662,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "외환전문역 Ⅱ종은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "외환전문역 Ⅱ종은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 180,
@@ -7891,7 +7712,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "펀드투자권유자문인력은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "펀드투자권유자문인력은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-03-08",
@@ -7911,8 +7732,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 181,
@@ -7947,7 +7767,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "증권투자권유자문인력은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "증권투자권유자문인력은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-08",
@@ -7967,8 +7787,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 182,
@@ -7987,23 +7806,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "파생상품투자권유자문인력은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "파생상품투자권유자문인력은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 183,
@@ -8038,7 +7856,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "투자자산운용사는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "투자자산운용사은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-18",
@@ -8058,8 +7876,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 184,
@@ -8078,23 +7895,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "초급"
     ],
-    "overview": "금융투자분석사는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "금융투자분석사은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kofia.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 185,
@@ -8154,7 +7970,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "재경관리사는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "재경관리사은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.samilexam.com/?WG_V=1795397869311",
     "examDates": [
       "2026-01-31",
@@ -8186,8 +8002,7 @@ window.CERTIFICATES_DATA = [
       "자격증발급": 5000
     },
     "feeBasis": "응시료 70,000원 (자격증 발급 시 5,000원 별도, 총 75,000원)",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 186,
@@ -8247,7 +8062,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "회계관리 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "회계관리 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.samilexam.com/?WG_V=1795397869311",
     "examDates": [
       "2026-01-31",
@@ -8279,8 +8094,7 @@ window.CERTIFICATES_DATA = [
       "자격증발급": 5000
     },
     "feeBasis": "응시료 50,000원 (자격증 발급 시 5,000원 별도, 총 55,000원)",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 187,
@@ -8340,7 +8154,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "회계관리 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "회계관리 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.samilexam.com/?WG_V=1795397869311",
     "examDates": [
       "2026-01-31",
@@ -8372,8 +8186,7 @@ window.CERTIFICATES_DATA = [
       "자격증발급": 5000
     },
     "feeBasis": "응시료 30,000원 (자격증 발급 시 5,000원 별도, 총 35,000원)",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 188,
@@ -8423,7 +8236,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "전산세무 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전산세무 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-31",
@@ -8446,8 +8259,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 189,
@@ -8497,7 +8309,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "전산세무 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전산세무 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-31",
@@ -8520,8 +8332,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 190,
@@ -8571,7 +8382,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "전산회계 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전산회계 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-31",
@@ -8594,8 +8405,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 191,
@@ -8645,7 +8455,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "전산회계 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전산회계 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-31",
@@ -8668,8 +8478,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 192,
@@ -8719,7 +8528,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "세무회계 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "세무회계 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-31",
@@ -8742,8 +8551,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 193,
@@ -8793,7 +8601,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "세무회계 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "세무회계 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-31",
@@ -8816,8 +8624,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 194,
@@ -8867,7 +8674,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "세무회계 3급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "세무회계 3급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-31",
@@ -8890,8 +8697,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 195,
@@ -8910,23 +8716,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "FAT 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "FAT 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kacpta.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 196,
@@ -8945,23 +8750,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "FAT 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "FAT 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kacpta.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 197,
@@ -8980,23 +8784,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "고급"
     ],
-    "overview": "TAT 1급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "TAT 1급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kacpta.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 198,
@@ -9015,23 +8818,22 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "TAT 2급은 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "TAT 2급은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.kacpta.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 199,
@@ -9056,7 +8858,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "ERP정보관리사 인사는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP정보관리사 인사은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9073,8 +8875,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 200,
@@ -9099,7 +8900,7 @@ window.CERTIFICATES_DATA = [
       "공기업",
       "중급"
     ],
-    "overview": "ERP정보관리사 회계는 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP정보관리사 회계은(는) 공기업 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9116,8 +8917,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 201,
@@ -9136,7 +8936,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "컴퓨터활용능력 1급(대한상공회의소)는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "컴퓨터활용능력 1급(대한상공회의소)은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -9158,8 +8958,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 202,
@@ -9178,7 +8977,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "컴퓨터활용능력 2급(대한상공회의소)는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "컴퓨터활용능력 2급(대한상공회의소)은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -9200,8 +8999,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 203,
@@ -9220,7 +9018,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "워드프로세서(대한상공회의소)는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "워드프로세서(대한상공회의소)은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -9242,8 +9040,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 204,
@@ -9268,7 +9065,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "ITQ 한글은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ITQ 한글은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -9292,8 +9089,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 205,
@@ -9318,7 +9114,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "ITQ 엑셀은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ITQ 엑셀은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -9342,8 +9138,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 206,
@@ -9368,7 +9163,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "ITQ 파워포인트는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ITQ 파워포인트은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -9392,8 +9187,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 207,
@@ -9418,7 +9212,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "ITQ 액세스는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ITQ 액세스은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -9442,8 +9236,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 208,
@@ -9468,7 +9261,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "ITQ 인터넷은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ITQ 인터넷은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -9492,8 +9285,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 19,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 209,
@@ -9523,7 +9315,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "GTQ 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQ 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -9548,8 +9340,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 210,
@@ -9579,7 +9370,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "GTQ 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQ 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -9604,8 +9395,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 211,
@@ -9635,7 +9425,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "GTQ 3급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "GTQ 3급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28",
@@ -9660,8 +9450,7 @@ window.CERTIFICATES_DATA = [
     "dDayDaysAtUpdate": 5,
     "dDayCalculatedAt": "2026-11-23",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "scheduled",
-    "FeeType": "single"
+    "scheduleType": "scheduled"
   },
   {
     "id": 212,
@@ -9686,7 +9475,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "ERP 인사정보관리사 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 인사정보관리사 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9709,8 +9498,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 213,
@@ -9735,7 +9523,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "ERP 인사정보관리사 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 인사정보관리사 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9758,8 +9546,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 214,
@@ -9784,7 +9571,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "ERP 회계정보관리사 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 회계정보관리사 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9807,8 +9594,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 215,
@@ -9833,7 +9619,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "ERP 회계정보관리사 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 회계정보관리사 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9856,8 +9642,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 216,
@@ -9882,7 +9667,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "ERP 생산정보관리사 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 생산정보관리사 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9905,8 +9690,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 217,
@@ -9931,7 +9715,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "ERP 생산정보관리사 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 생산정보관리사 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -9954,8 +9738,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 218,
@@ -9980,7 +9763,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "ERP 물류정보관리사 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 물류정보관리사 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -10003,8 +9786,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 219,
@@ -10029,7 +9811,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "ERP 물류정보관리사 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ERP 물류정보관리사 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-11-28"
@@ -10052,8 +9834,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.kpc.or.kr/nasec/rceptexmncnfirm/selectExprschdul.do?year=2026",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled",
-    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "FeeType": "single"
+    "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요."
   },
   {
     "id": 220,
@@ -10078,7 +9859,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "디지털정보활용능력(DIAT) 정보통신상식은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "디지털정보활용능력(DIAT) 정보통신상식은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -10096,8 +9877,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 221,
@@ -10122,7 +9902,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "디지털정보활용능력(DIAT) 워드프로세서는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "디지털정보활용능력(DIAT) 워드프로세서은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.kpc.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -10146,8 +9926,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "single"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 222,
@@ -10172,7 +9951,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "디지털정보활용능력(DIAT) 스프레드시트는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "디지털정보활용능력(DIAT) 스프레드시트은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -10190,8 +9969,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 223,
@@ -10216,7 +9994,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "디지털정보활용능력(DIAT) 프리젠테이션은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "디지털정보활용능력(DIAT) 프리젠테이션은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -10234,8 +10012,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 224,
@@ -10260,7 +10037,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "디지털정보활용능력(DIAT) 멀티미디어제작은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "디지털정보활용능력(DIAT) 멀티미디어제작은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -10278,8 +10055,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 225,
@@ -10304,7 +10080,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "디지털정보활용능력(DIAT) 인터넷정보검색은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "디지털정보활용능력(DIAT) 인터넷정보검색은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-12-12"
@@ -10322,8 +10098,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "scheduled",
     "scheduleNote": "공식 시행기관 일정에서 확인한 회차를 반영했습니다. 접수 가능 여부는 공식 페이지에서 다시 확인하세요.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 226,
@@ -10342,23 +10117,22 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "문서실무사 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "문서실무사 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/co/examguide03.do?cd=0401&mm=53",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 227,
@@ -10377,23 +10151,22 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "문서실무사 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "문서실무사 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/co/examguide03.do?cd=0401&mm=53",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 228,
@@ -10412,23 +10185,22 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "문서실무사 3급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "문서실무사 3급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/co/examguide03.do?cd=0401&mm=53",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 229,
@@ -10468,7 +10240,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "한자능력검정시험 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한자능력검정시험 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10489,8 +10261,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 230,
@@ -10530,7 +10301,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "한자능력검정시험 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한자능력검정시험 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10551,8 +10322,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 231,
@@ -10592,7 +10362,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "한자능력검정시험 3급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한자능력검정시험 3급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10613,8 +10383,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 232,
@@ -10654,7 +10423,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "한자능력검정시험 4급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한자능력검정시험 4급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10675,8 +10444,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 233,
@@ -10716,7 +10484,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "고급"
     ],
-    "overview": "한국어문회 한자능력급수 1급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한국어문회 한자능력급수 1급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10737,8 +10505,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 234,
@@ -10778,7 +10545,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "한국어문회 한자능력급수 2급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한국어문회 한자능력급수 2급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10799,8 +10566,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 235,
@@ -10840,7 +10606,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "한국어문회 한자능력급수 3급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한국어문회 한자능력급수 3급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10861,8 +10627,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 236,
@@ -10902,7 +10667,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "한국어문회 한자능력급수 4급은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한국어문회 한자능력급수 4급은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-02-28",
@@ -10923,8 +10688,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 237,
@@ -10943,23 +10707,22 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "CS Leaders(관리사)는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "CS Leaders(관리사)은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.kpc.or.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 238,
@@ -10978,23 +10741,22 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "텔레마케팅관리사는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "텔레마케팅관리사은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 239,
@@ -11013,7 +10775,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "비서는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "비서은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -11028,8 +10790,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 240,
@@ -11064,7 +10825,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "중급"
     ],
-    "overview": "유통관리사는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "유통관리사은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [
       "2026-05-09",
@@ -11084,8 +10845,7 @@ window.CERTIFICATES_DATA = [
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "not_in_next_round",
     "scheduleNote": "2026년 정기 회차가 모두 종료되었습니다. 2027년 공식 일정 발표 후 업데이트가 필요합니다.",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "unverified"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 241,
@@ -11104,7 +10864,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "무역영어는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "무역영어은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -11119,8 +10879,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/noticeview.do?num=254626&pg=1",
     "scheduleCheckedAt": "2026-11-02",
     "scheduleType": "scheduled_periodic",
-    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "공식 대한상공회의소 안내에서 매년 일부 월에 시험을 개설하는 일정으로 안내됩니다. 상시시험처럼 날짜가 항상 열려 있는 것으로 간주하지 말고, 지역별 개설일과 접수 가능 여부를 확인하세요."
   },
   {
     "id": 242,
@@ -11139,13 +10898,13 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "상공회의소 한자는 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "상공회의소 한자은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "상시 시행(개별 조회)"
+      "schedule": "상시"
     },
     "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
@@ -11153,9 +10912,8 @@ window.CERTIFICATES_DATA = [
     "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-02",
-    "scheduleType": "always_open",
-    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다.",
-    "FeeType": "unverified"
+    "scheduleType": "continuous",
+    "scheduleNote": "공식 시행기관에서 상시 시행으로 안내합니다. 시험장·지역별로 개설된 날짜와 잔여 좌석을 확인해야 하며, 고정 D-Day는 표시하지 않습니다."
   },
   {
     "id": 243,
@@ -11174,7 +10932,7 @@ window.CERTIFICATES_DATA = [
       "사무/자격",
       "초급"
     ],
-    "overview": "컴퓨터활용능력은 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "컴퓨터활용능력은(는) 사무/자격 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://license.korcham.net/",
     "examDates": [],
     "dataSource": "J",
@@ -11196,8 +10954,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://license.korcham.net/customer/faq.do?bigCate=11&pg=3&searchType=title&searchWord=",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 244,
@@ -11217,23 +10974,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "자동차정비기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "자동차정비기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 245,
@@ -11275,7 +11031,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "자동차정비산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "자동차정비산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -11302,8 +11058,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 246,
@@ -11345,7 +11100,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "자동차정비기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "자동차정비기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -11372,8 +11127,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 247,
@@ -11393,23 +11147,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "자동차보수도장기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "자동차보수도장기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 248,
@@ -11429,23 +11182,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "자동차차체수리기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "자동차차체수리기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 249,
@@ -11464,23 +11216,22 @@ window.CERTIFICATES_DATA = [
       "기타",
       "고급"
     ],
-    "overview": "자동차진단평가사 1급은 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "자동차진단평가사 1급은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 250,
@@ -11499,23 +11250,22 @@ window.CERTIFICATES_DATA = [
       "기타",
       "중급"
     ],
-    "overview": "자동차진단평가사 2급은 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "자동차진단평가사 2급은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 251,
@@ -11535,23 +11285,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "건설기계정비기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "건설기계정비기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 252,
@@ -11593,7 +11342,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "건설기계정비산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "건설기계정비산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -11620,8 +11369,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 253,
@@ -11641,7 +11389,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "굴착기운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "굴착기운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -11656,8 +11404,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02101&tabGb=sang",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 254,
@@ -11677,7 +11424,7 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "지게차운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "지게차운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
@@ -11692,8 +11439,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02101&tabGb=sang",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 255,
@@ -11713,23 +11459,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "로더운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "로더운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 256,
@@ -11749,23 +11494,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "롤러운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "롤러운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 257,
@@ -11785,23 +11529,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "불도저운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "불도저운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 258,
@@ -11821,23 +11564,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "천장크레인운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "천장크레인운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 259,
@@ -11857,23 +11599,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "타워크레인운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "타워크레인운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 260,
@@ -11893,23 +11634,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "기중기운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "기중기운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 261,
@@ -11929,23 +11669,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "양화장치운전기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "양화장치운전기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 262,
@@ -11987,7 +11726,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "공조냉동기계기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "공조냉동기계기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12014,8 +11753,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 263,
@@ -12057,7 +11795,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "공조냉동기계산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "공조냉동기계산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12084,8 +11822,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 264,
@@ -12105,23 +11842,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "공조냉동기계기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "공조냉동기계기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 265,
@@ -12163,7 +11899,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "용접기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "용접기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12190,8 +11926,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 266,
@@ -12233,7 +11968,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "용접산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "용접산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12260,8 +11995,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 267,
@@ -12281,23 +12015,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "용접기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "용접기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 268,
@@ -12317,23 +12050,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "특수용접기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "특수용접기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 269,
@@ -12375,7 +12107,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "에너지관리산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "에너지관리산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12402,8 +12134,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 270,
@@ -12423,23 +12154,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "에너지관리기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "에너지관리기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 271,
@@ -12459,23 +12189,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "배관기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "배관기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 272,
@@ -12517,7 +12246,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "배관산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "배관산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12544,8 +12273,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 273,
@@ -12565,23 +12293,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "전기기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전기기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 274,
@@ -12623,7 +12350,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "전기철도기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전기철도기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12650,8 +12377,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 275,
@@ -12693,7 +12419,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "전기철도산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "전기철도산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12720,8 +12446,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 276,
@@ -12763,7 +12488,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "철도신호기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "철도신호기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12790,8 +12515,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 277,
@@ -12833,7 +12557,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "철도신호산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "철도신호산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12860,8 +12584,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 278,
@@ -12903,7 +12626,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "승강기기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "승강기기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -12930,8 +12653,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 279,
@@ -12973,7 +12695,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "승강기산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "승강기산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13000,8 +12722,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 280,
@@ -13021,23 +12742,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "승강기기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "승강기기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 281,
@@ -13057,23 +12777,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "가스기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "가스기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 282,
@@ -13093,23 +12812,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "위험물기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "위험물기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 283,
@@ -13130,23 +12848,22 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "위험물기능장은 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "위험물기능장은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 284,
@@ -13188,7 +12905,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "산림기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "산림기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13215,8 +12932,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 285,
@@ -13258,7 +12974,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "산림산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "산림산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13285,8 +13001,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 286,
@@ -13328,7 +13043,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "조경기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "조경기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13355,8 +13070,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 287,
@@ -13398,7 +13112,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "조경산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "조경산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13425,8 +13139,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 288,
@@ -13446,23 +13159,22 @@ window.CERTIFICATES_DATA = [
       "초급",
       "국가기술자격"
     ],
-    "overview": "조경기능사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "조경기능사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "2026년 회차 종료(차년도 대기)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.q-net.or.kr/crf021.do?gId=99&gSite=Q&id=crf02103&scheType=01",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "not_in_next_round",
-    "scheduleNote": "2026년 Q-Net 정기 회차가 종료되었거나 차년도 일정 대기 중입니다. 2027년 연간 시험일정 공고 후 공식 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 289,
@@ -13504,7 +13216,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "식물보호기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "식물보호기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13531,8 +13243,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 290,
@@ -13574,7 +13285,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "식물보호산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "식물보호산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13601,8 +13312,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 291,
@@ -13644,7 +13354,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "종자기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "종자기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13671,8 +13381,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 292,
@@ -13714,7 +13423,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "종자산업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "종자산업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13741,8 +13450,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 293,
@@ -13784,7 +13492,7 @@ window.CERTIFICATES_DATA = [
       "응시자격 확인 필요",
       "국가기술자격"
     ],
-    "overview": "유기농업기사는 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
+    "overview": "유기농업기사은(는) 기타 분야의 자격·시험으로, 관련 직무 역량 또는 학업·취업 준비 능력을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.q-net.or.kr/",
     "examDates": [
       "2026-01-30",
@@ -13811,8 +13519,7 @@ window.CERTIFICATES_DATA = [
     },
     "feeBasis": "필기+실기 응시료 합계 (정기 기사·산업기사 공통 기준)",
     "feeVerifiedAt": "2026-11-23",
-    "scheduleVerifiedAt": "2026-11-23",
-    "FeeType": "split"
+    "scheduleVerifiedAt": "2026-11-23"
   },
   {
     "id": 294,
@@ -13832,7 +13539,7 @@ window.CERTIFICATES_DATA = [
       "디지털 역량",
       "응시료 확인 필요"
     ],
-    "overview": "MOS Excel Associate는 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
+    "overview": "MOS Excel Associate은(는) 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
     "url": "https://certiport.pearsonvue.com/",
     "examDates": [],
     "dataSource": "J",
@@ -13847,8 +13554,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 295,
@@ -13868,7 +13574,7 @@ window.CERTIFICATES_DATA = [
       "디지털 역량",
       "응시료 확인 필요"
     ],
-    "overview": "MOS Excel Expert는 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
+    "overview": "MOS Excel Expert은(는) 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
     "url": "https://certiport.pearsonvue.com/",
     "examDates": [],
     "dataSource": "J",
@@ -13883,8 +13589,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 296,
@@ -13904,7 +13609,7 @@ window.CERTIFICATES_DATA = [
       "디지털 역량",
       "응시료 확인 필요"
     ],
-    "overview": "MOS Word Associate는 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
+    "overview": "MOS Word Associate은(는) 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
     "url": "https://certiport.pearsonvue.com/",
     "examDates": [],
     "dataSource": "J",
@@ -13919,8 +13624,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 297,
@@ -13940,7 +13644,7 @@ window.CERTIFICATES_DATA = [
       "디지털 역량",
       "응시료 확인 필요"
     ],
-    "overview": "MOS PowerPoint Associate는 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
+    "overview": "MOS PowerPoint Associate은(는) 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
     "url": "https://certiport.pearsonvue.com/",
     "examDates": [],
     "dataSource": "J",
@@ -13955,8 +13659,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 298,
@@ -13976,7 +13679,7 @@ window.CERTIFICATES_DATA = [
       "디지털 역량",
       "응시료 확인 필요"
     ],
-    "overview": "MOS Outlook Associate는 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
+    "overview": "MOS Outlook Associate은(는) 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
     "url": "https://certiport.pearsonvue.com/",
     "examDates": [],
     "dataSource": "J",
@@ -13991,8 +13694,7 @@ window.CERTIFICATES_DATA = [
     "scheduleSourceUrl": "https://www.ybmit.com/",
     "scheduleCheckedAt": "2026-11-23",
     "scheduleType": "always_open",
-    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleNote": "상시시험 종목입니다. 지역별 시험장 개설 일정을 공식 접수 사이트에서 확인하세요."
   },
   {
     "id": 299,
@@ -14012,15 +13714,15 @@ window.CERTIFICATES_DATA = [
       "디지털 역량",
       "응시료 확인 필요"
     ],
-    "overview": "ICDL 컴퓨터활용능력은 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
+    "overview": "ICDL 컴퓨터활용능력은(는) 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.icdl.org/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "공식 출처 확인 완료",
-      "schedule": "상시·수시 시행(개별 조회)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "feeDetails": {
       "필기": 20500,
       "실기": 25000
@@ -14030,12 +13732,11 @@ window.CERTIFICATES_DATA = [
     "feeVerifiedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://license.korcham.net/co/examguide03.do?cd=0401&mm=53",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "always_open",
-    "scheduleNote": "상시 또는 연중 수시 시행되는 시험입니다. 지역·고사장별 개설 일정과 접수 가능 여부를 공식 사이트에서 확인하세요.",
-    "FeeType": "split"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   },
   {
     "id": 300,
@@ -14055,22 +13756,21 @@ window.CERTIFICATES_DATA = [
       "디지털 역량",
       "응시료 확인 필요"
     ],
-    "overview": "한국정보기술연구원 정보보안관리사는 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
+    "overview": "한국정보기술연구원 정보보안관리사은(는) 사무/자격 분야의 시험으로, 관련 소프트웨어 활용 또는 정보기술 역량을 확인하는 데 활용할 수 있습니다.",
     "url": "https://www.kitribob.or.kr/",
     "examDates": [],
     "dataSource": "J",
     "researchStatus": {
       "fee": "미확인",
-      "schedule": "공식 일정표 개별 확인(차년도·정기 공고)"
+      "schedule": "확인 필요"
     },
-    "datasetReviewedAt": "2026-11-23",
+    "datasetReviewedAt": "2026-11-02",
     "nextExamDate": null,
     "dDayDaysAtUpdate": null,
-    "dDayCalculatedAt": "2026-11-23",
+    "dDayCalculatedAt": "2026-11-02",
     "scheduleSourceUrl": "https://www.kitri.re.kr/",
-    "scheduleCheckedAt": "2026-11-23",
-    "scheduleType": "scheduled_periodic",
-    "scheduleNote": "시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 접수 기간 및 시험일은 공식 일정 페이지에서 확인하세요.",
-    "FeeType": "unverified"
+    "scheduleCheckedAt": "2026-11-02",
+    "scheduleType": "unverified",
+    "scheduleNote": "이 파일에 확정된 다음 시험일을 넣지 않았습니다. 공식 일정 페이지에서 종목·등급·지역별 일정을 확인해야 합니다."
   }
 ];

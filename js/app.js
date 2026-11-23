@@ -42,10 +42,11 @@ const dayOf=c=>{const r=nextR(c);return r?dd(r.examDate):9999};
 const dDayLabel=c=>{const r=nextR(c);return r?D(dd(r.examDate)):''};
 const scheduleLabel = c => {
   const t = c.scheduleType || '';
-  if (t === 'continuous' || t === 'always_open') return '상시';
-  if (t === 'multiple_sessions') return '수시';
-  if (t === 'scheduled' || t === 'scheduled_periodic') return '정기';
-  if (t === 'not_in_next_round') return '당해 회차 종료';
+  const cat = c.displayScheduleCategory || '';
+  if (t === 'continuous' || t === 'always_open' || t === 'always_open_or_frequent' || cat === 'ALWAYS_OPEN' || cat === 'CONTINUOUS') return '상시';
+  if (t === 'multiple_sessions' || t === 'rolling_submission' || cat === 'MULTIPLE_SESSIONS') return '수시';
+  if (t === 'scheduled' || t === 'scheduled_periodic' || t === 'periodic_scheduled' || t === 'institution_schedule' || cat === 'CONFIRMED_ROUND' || cat === 'PERIODIC_SCHEDULED') return '정기';
+  if (t === 'not_in_next_round' || t === 'round_ended' || cat === 'ROUND_ENDED') return '당해 회차 종료';
   if (t === 'unverified') return '일정 확인 필요';
   const st = c.researchStatus?.schedule || '';
   if (st.startsWith('상시')) return '상시';
@@ -66,10 +67,10 @@ const statusClass = c => {
 const noScheduleText = c => {
   if (c.scheduleNote) return c.scheduleNote;
   const t = c.scheduleType || '';
-  if (t === 'always_open' || t === 'continuous') return '상시시험입니다. 지역·시험장별 개설 일정과 접수 가능 여부를 공식 페이지에서 확인하세요.';
-  if (t === 'not_in_next_round') return '당해 연도 정기 회차가 종료되었습니다. 차년도 연간 시험일정 공고 후 공식 페이지에서 확인하세요.';
-  if (t === 'multiple_sessions') return '등급·지역별 시험일을 공식 일정표에서 확인하세요.';
-  if (t === 'scheduled_periodic') return '시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 공식 일정 페이지에서 확인하세요.';
+  if (t === 'always_open' || t === 'continuous' || t === 'always_open_or_frequent') return '상시시험입니다. 지역·시험장별 개설 일정과 접수 가능 여부를 공식 페이지에서 확인하세요.';
+  if (t === 'not_in_next_round' || t === 'round_ended') return '당해 연도 정기 회차가 종료되었습니다. 차년도 연간 시험일정 공고 후 공식 페이지에서 확인하세요.';
+  if (t === 'multiple_sessions' || t === 'rolling_submission') return '등급·지역별 시험일을 공식 일정표에서 확인하세요.';
+  if (t === 'scheduled_periodic' || t === 'periodic_scheduled' || t === 'institution_schedule') return '시행기관의 연간·정기 공고에 따라 회차별 일정이 운영됩니다. 공식 일정 페이지에서 확인하세요.';
   return '아직 확인된 시험일이 없습니다. 공식 시행기관의 일정을 확인해 주세요.';
 };
 
@@ -83,21 +84,19 @@ function load(){S.status='loading';renderList();
         const res=await fetch(window.CERTIFICATES_API_URL);
         if(!res.ok)throw new Error(res.status);
         raw=await res.json(); source='A';
+      }else if(Array.isArray(window.CERTIFICATES_DATA)){
+        raw=window.CERTIFICATES_DATA; source='J';
       }else{
-        try{
-          const res=await fetch('./data/certificates.json');
-          if(!res.ok)throw new Error(res.status);
-          raw=await res.json(); source='J';
-        }catch(jsonError){
-          if(Array.isArray(window.CERTIFICATES_DATA)){raw=window.CERTIFICATES_DATA;source='J'}
-          else throw jsonError;
-        }
+        const res=await fetch('./data/certificates.json');
+        if(!res.ok)throw new Error(res.status);
+        raw=await res.json(); source='J';
       }
       S.dataSource=source;
       S.certs=raw.map(c=>({...c, id:Number(c.id), name:c.name, field:c.field, sub:subOf(c.field,c.name), eligibility:c.eligibility, eligibilityText:c.eligibilityText||c.eligibility||'공식 안내를 확인해 주세요.', difficulty:Number(c.difficulty)||({초급:1,중급:2,고급:3}[c.level]||2), fee:c.fee??null, officialUrl:c.officialUrl||c.url||'', dataSource:source, rounds:(c.rounds||[]).map((r,i)=>({roundId:'r'+(i+1),applyStart:r[0],applyEnd:r[1],examDate:r[2]}))}));
       S.status='ready'
     }catch(e){S.status='error'}
     renderList();refresh()},100)}
+    
 function filtered(){const q=S.q.trim().toLowerCase();
   let l=S.certs.filter(c=>(!q||c.name.toLowerCase().includes(q))&&(!S.f.field||c.field===S.f.field)&&(!S.f.sub||c.sub===S.f.sub)&&(!S.f.elig||c.eligibility===S.f.elig)&&(!S.f.diff||c.difficulty===+S.f.diff));
   return l.sort(S.sort==='fee'?(a,b)=>(a.fee??Infinity)-(b.fee??Infinity):S.sort==='pop'?(a,b)=>popRank(a)-popRank(b):(a,b)=>dayOf(a)-dayOf(b))}

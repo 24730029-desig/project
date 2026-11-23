@@ -531,3 +531,10 @@ body,button,input,.dd,.hero .dd,.d3 .dd,.box .dd,.card .dd,.brand,.rk,.t{font-fa
 /* 삭제 ×: 원 배경 없이 글자만 */
 .xbtn,.xbtn:active{background:none;border-radius:0;width:28px;font-size:22px;color:var(--muted)}
 .xbtn:active{color:var(--dk)}
+
+/* 마이 · 목표 D-Day 행: 취득 상태처럼 배경 없이, D-Day는 크게 안쪽으로 */
+.my-row{padding:11px 0;border-bottom:1px dashed var(--line)}
+.my-name{flex:1;min-width:0;text-align:left;background:none;border:0;box-shadow:none;padding:0}
+.my-name .t{display:block}
+.my-name .sub{display:block;margin-top:2px}
+.my-dd{flex:0 0 auto;font-size:22px;font-weight:800;letter-spacing:-.02em;color:var(--dk);margin:0 14px 0 8px;font-variant-numeric:lining-nums tabular-nums}

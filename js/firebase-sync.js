@@ -5,11 +5,6 @@ window.PassPickSync = (function () {
   let isReady = false;
   let status = 'offline'; // 'offline' | 'ready' | 'synced' | 'syncing'
   const CODE_KEY = 'passpick_sync_code';
-  const DIRTY_KEY = 'passpick_sync_dirty'; // 클라우드에 아직 못 올린 변경이 있으면 '1'
-
-  // 오프라인이면 Firestore 요청이 끝나지 않고 멈출 수 있어서, 일정 시간 뒤 실패로 처리합니다.
-  const withTimeout = (p, ms = 8000) =>
-    Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), ms))]);
 
   const getCode = () => localStorage.getItem(CODE_KEY) || '';
   const setCode = (c) => localStorage.setItem(CODE_KEY, c.trim().toUpperCase());
@@ -55,34 +50,21 @@ window.PassPickSync = (function () {
 
   // Firestore에 현재 기기 데이터 저장
   async function push(code = getCode()) {
-    if (!isReady || !db || !code) return false;
+    if (!isReady || !db || !code) return;
     status = 'syncing';
     if (typeof renderMy === 'function') renderMy();
-    let ok = false;
     try {
-      await withTimeout(db.collection('sync').doc(code).set({
+      await db.collection('sync').doc(code).set({
         targetExams: lsGet('targetExams', []),
         myCertStatus: lsGet('myCertStatus', {}),
         updatedAt: firebase.firestore.FieldValue.serverTimestamp()
-      }, { merge: true }));
-      localStorage.removeItem(DIRTY_KEY);   // 클라우드에 반영 완료
+      }, { merge: true });
       status = 'synced';
-      ok = true;
     } catch (e) {
       console.warn('Firestore 저장 실패(로컬은 안전하게 유지됨):', e);
       status = 'offline';
     }
     if (typeof renderMy === 'function') renderMy();
-    return ok;
-  }
-
-  // 저장이 연달아 일어나도 한 번에 모아서 올립니다(0.7초 뒤).
-  let pushTimer = null;
-  function schedulePush() {
-    if (!getCode()) return;
-    localStorage.setItem(DIRTY_KEY, '1');   // 올리기 전까지는 '미반영 변경'으로 표시
-    clearTimeout(pushTimer);
-    pushTimer = setTimeout(() => { push(); }, 700);
   }
 
   // Firestore에서 연동 코드 데이터 불러오기 및 로컬 데이터와 합치기
@@ -91,7 +73,7 @@ window.PassPickSync = (function () {
     status = 'syncing';
     if (typeof renderMy === 'function') renderMy();
     try {
-      const snap = await withTimeout(db.collection('sync').doc(code).get());
+      const snap = await db.collection('sync').doc(code).get();
       if (snap.exists) {
         const data = snap.data();
         const cloudT = Array.isArray(data.targetExams) ? data.targetExams : [];
@@ -131,30 +113,10 @@ window.PassPickSync = (function () {
       alert('현재 오프라인 상태입니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.');
       return;
     }
-    let newCode = '';
-    try {
-      for (let i = 0; i < 5; i++) {          // 다른 사람이 쓰는 코드와 겹치지 않는지 확인
-        const c = makeCode();
-        const snap = await withTimeout(db.collection('sync').doc(c).get());
-        if (!snap.exists) { newCode = c; break; }
-      }
-    } catch (e) {
-      console.warn('코드 확인 실패:', e);
-    }
-    if (!newCode) {
-      alert('연동 코드를 만들지 못했습니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.');
-      return;
-    }
+    const newCode = makeCode();
     setCode(newCode);
-    const ok = await push(newCode);
-    if (!ok) {                               // 저장에 실패했으면 코드를 남기지 않습니다
-      localStorage.removeItem(CODE_KEY);
-      status = 'ready';
-      if (typeof renderMy === 'function') renderMy();
-      alert('클라우드에 저장하지 못했습니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.');
-      return;
-    }
-    alert(`새 연동 코드 [${newCode}]가 생성되어 클라우드에 저장되었습니다.\n다른 기기에서 이 코드를 입력하면 목표 D-Day와 취득 상태가 동기화됩니다.\n코드를 잃어버리면 복구할 수 없으니 따로 적어 두세요.`);
+    await push(newCode);
+    alert(`새 연동 코드 [${newCode}]가 생성되어 클라우드에 저장되었습니다.\n다른 기기에서 이 코드를 입력하면 목표 D-Day와 취득 상태가 동기화됩니다.`);
   }
 
   // 다른 기기에서 발급한 코드 입력 후 데이터 합치기
@@ -169,7 +131,7 @@ window.PassPickSync = (function () {
       return;
     }
     try {
-      const snap = await withTimeout(db.collection('sync').doc(clean).get());
+      const snap = await db.collection('sync').doc(clean).get();
       if (!snap.exists) {
         alert('존재하지 않는 연동 코드입니다. 코드를 다시 확인해 주세요.');
         return;
@@ -185,7 +147,6 @@ window.PassPickSync = (function () {
   function disconnect() {
     if (!confirm('이 기기의 클라우드 연동을 해제할까요? (현재 기기의 로컬 데이터는 유지됩니다)')) return;
     localStorage.removeItem(CODE_KEY);
-    localStorage.removeItem(DIRTY_KEY);
     status = isReady ? 'ready' : 'offline';
     if (typeof renderMy === 'function') renderMy();
   }
@@ -243,11 +204,11 @@ window.PassPickSync = (function () {
 
       // app.js의 store.set()이 호출될 때마다 자동으로 클라우드에 반영
       if (Array.isArray(syncHooks)) {
-        syncHooks.push(() => { schedulePush(); });
+        syncHooks.push(() => { push(); });
       }
 
       if (savedCode) {
-        await pull(savedCode, localStorage.getItem(DIRTY_KEY) === '1'); // 미반영 변경이 있으면 덮어쓰지 않고 합침
+        await pull(savedCode, false);
       } else if (typeof renderMy === 'function') {
         renderMy();
       }
